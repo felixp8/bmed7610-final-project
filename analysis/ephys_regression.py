@@ -28,7 +28,7 @@ from scipy.stats import pearsonr
 import time
 
 # %% Setup
-"""
+
 config = json.load(open('./ssl_neuron/configs/config.json'))
 config['data']['n_nodes'] = 1000
 
@@ -99,11 +99,12 @@ morph_features = np.concatenate(morph_features, axis=1)
 def fit_eval_decoder(input_features, target_df, skip_cols=[], to_str_cols=[], 
                      regression_model=Ridge, regression_params={'alpha': np.logspace(-8, 3, 12)},
                      classification_model=LogisticRegression, classification_params={},
-                     seed=0):
+                     seed=0, return_models=False):
     np.random.seed(seed)
     score_dict = {}
     score_std_dict = {}
     pred_truth_dict = {}
+    model_dict = {}
     for col in target_df.columns:
         if col in skip_cols:
             continue
@@ -144,10 +145,14 @@ def fit_eval_decoder(input_features, target_df, skip_cols=[], to_str_cols=[],
         score_std_dict[col] = gscv.cv_results_['std_test_score'][gscv.best_index_]
         # escore_dict[col] = gscv.score(inputs, targets)
         pred_truth_dict[col] = (gscv.predict(inputs), targets)
-    return score_dict, score_std_dict, pred_truth_dict
-"""
+        if return_models:
+            model_dict[col] = gscv
+    if return_models:
+        return score_dict, score_std_dict, pred_truth_dict, model_dict
+    else:
+        return score_dict, score_std_dict, pred_truth_dict
 
-"""
+
 # %%
 
 import torch
@@ -428,52 +433,52 @@ for d in [lcmlscore_dict, lcmlscore_std_dict, lcmnscore_dict, lcmnscore_std_dict
 
 # %%
 
-print(time.time())
+# print(time.time())
 # import pdb; pdb.set_trace()
 
-linear_scores = [llscore_dict, clscore_dict, mlscore_dict, lclscore_dict, lmlscore_dict, cmlscore_dict, lcmlscore_dict]
-linear_scores = pd.DataFrame(linear_scores)
-linear_scores.to_csv('../analysis/linear_scores.csv')
+# linear_scores = [llscore_dict, clscore_dict, mlscore_dict, lclscore_dict, lmlscore_dict, cmlscore_dict, lcmlscore_dict]
+# linear_scores = pd.DataFrame(linear_scores)
+# linear_scores.to_csv('../analysis/linear_scores.csv')
 
-linear_score_stds = [llscore_std_dict, clscore_std_dict, mlscore_std_dict, lclscore_std_dict, lmlscore_std_dict, cmlscore_std_dict, lcmlscore_std_dict]
-linear_score_stds = pd.DataFrame(linear_score_stds)
-linear_score_stds.to_csv('../analysis/linear_score_stds.csv')
+# linear_score_stds = [llscore_std_dict, clscore_std_dict, mlscore_std_dict, lclscore_std_dict, lmlscore_std_dict, cmlscore_std_dict, lcmlscore_std_dict]
+# linear_score_stds = pd.DataFrame(linear_score_stds)
+# linear_score_stds.to_csv('../analysis/linear_score_stds.csv')
 
-nonlinear_scores = [lnscore_dict, cnscore_dict, mnscore_dict, lcnscore_dict, lmnscore_dict, cmnscore_dict, lcmnscore_dict]
-nonlinear_scores = pd.DataFrame(nonlinear_scores)
-nonlinear_scores.to_csv('../analysis/nonlinear_scores.csv')
+# nonlinear_scores = [lnscore_dict, cnscore_dict, mnscore_dict, lcnscore_dict, lmnscore_dict, cmnscore_dict, lcmnscore_dict]
+# nonlinear_scores = pd.DataFrame(nonlinear_scores)
+# nonlinear_scores.to_csv('../analysis/nonlinear_scores.csv')
 
-nonlinear_score_stds = [lnscore_std_dict, cnscore_std_dict, mnscore_std_dict, lcnscore_std_dict, lmnscore_std_dict, cmnscore_std_dict, lcmnscore_std_dict]
-nonlinear_score_stds = pd.DataFrame(nonlinear_score_stds)
-nonlinear_score_stds.to_csv('../analysis/nonlinear_score_stds.csv')
-"""
+# nonlinear_score_stds = [lnscore_std_dict, cnscore_std_dict, mnscore_std_dict, lcnscore_std_dict, lmnscore_std_dict, cmnscore_std_dict, lcmnscore_std_dict]
+# nonlinear_score_stds = pd.DataFrame(nonlinear_score_stds)
+# nonlinear_score_stds.to_csv('../analysis/nonlinear_score_stds.csv')
 
-# %%
-
-linear_scores = pd.read_csv('../analysis/linear_scores.csv')
-linear_score_stds = pd.read_csv('../analysis/linear_score_stds.csv')
-nonlinear_scores = pd.read_csv('../analysis/nonlinear_scores.csv')
-nonlinear_score_stds = pd.read_csv('../analysis/nonlinear_score_stds.csv')
 
 # %%
 
-for feature in linear_scores.columns:
-    if feature == 'input_features':
-        continue
+# linear_scores = pd.read_csv('../analysis/linear_scores.csv')
+# linear_score_stds = pd.read_csv('../analysis/linear_score_stds.csv')
+# nonlinear_scores = pd.read_csv('../analysis/nonlinear_scores.csv')
+# nonlinear_score_stds = pd.read_csv('../analysis/nonlinear_score_stds.csv')
 
-    fig, axs = plt.subplots(1, 2, figsize=(12,6), sharey=True)
-    
-    axs[0].bar(np.arange(7), linear_scores[feature], yerr=(linear_score_stds[feature] / np.sqrt(5)))
-    axs[0].set_xticks(np.arange(7))
-    axs[0].set_xticklabels(linear_scores['input_features'], rotation=90)
-    axs[0].set_title('Linear')
-    
-    axs[1].bar(np.arange(7), nonlinear_scores[feature], yerr=(nonlinear_score_stds[feature] / np.sqrt(5)))
-    axs[1].set_xticks(np.arange(7))
-    axs[1].set_xticklabels(nonlinear_scores['input_features'], rotation=90)
-    axs[1].set_title('Non-linear')
+# %%
 
-    plt.tight_layout()
-    plt.savefig(f'../analysis/score_plots/{feature}.png')
-    plt.close()
+# for feature in linear_scores.columns:
+#     if feature == 'input_features':
+#         continue
+
+#     fig, axs = plt.subplots(1, 2, figsize=(12,6), sharey=True)
+    
+#     axs[0].bar(np.arange(7), linear_scores[feature], yerr=(linear_score_stds[feature] / np.sqrt(5)))
+#     axs[0].set_xticks(np.arange(7))
+#     axs[0].set_xticklabels(linear_scores['input_features'], rotation=90)
+#     axs[0].set_title('Linear')
+    
+#     axs[1].bar(np.arange(7), nonlinear_scores[feature], yerr=(nonlinear_score_stds[feature] / np.sqrt(5)))
+#     axs[1].set_xticks(np.arange(7))
+#     axs[1].set_xticklabels(nonlinear_scores['input_features'], rotation=90)
+#     axs[1].set_title('Non-linear')
+
+#     plt.tight_layout()
+#     plt.savefig(f'../analysis/score_plots/{feature}.png')
+#     plt.close()
 

@@ -88,7 +88,7 @@ if len(nm) < 1:
 nm = nm[0]['neuronal_models']
 model_id = None
 for model in nm:
-    if '1' in model['name'][:2]: # get basic LIF neurons
+    if '3' in model['name'][:2]: # get basic LIF neurons
         model_id = model['id']
         try:
             var = model['neuronal_model_runs'][0]['explained_variance_ratio']
@@ -107,7 +107,9 @@ glif_neuron = GlifNeuron.from_dict(neuron_config)
 glif_neuron.dt = (1.0 / sampling_rate)
 
 stimulus = sweep_data["stimulus"][0:index_range[1]+1]
+import time; print(time.time())
 output = glif_neuron.run(stimulus)
+print(time.time())
 # spike_times = output['interpolated_spike_times']
 grid_spike_indices = output['spike_time_steps']
 
@@ -156,7 +158,10 @@ def explained_variance_ratio(sweep_spikes, glif_spikes, kern_sd_samp, kern_width
 # %%
 
 print(f'Truth: {var:.6f}')
-kern_sd_samp = 2000 # 10 ms
+# for kern_sd_samp in [200, 600, 1000, 2000, 4000]:
+#     ev = explained_variance_ratio(sweep_spikes, glif_spikes, kern_sd_samp, kern_sd_samp * 6)
+#     print(f'{kern_sd_samp}: {ev:.6f}')
+kern_sd_samp = 2000 # 10 ms, best match
 ev = explained_variance_ratio(sweep_spikes, glif_spikes, kern_sd_samp, kern_sd_samp * 6)
 print(f'{kern_sd_samp}: {ev:.6f}')
 
