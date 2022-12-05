@@ -52,38 +52,54 @@ glif_api = GlifApi()
 # %%
 
 llpred_truth_dict = pd.read_csv('../analysis/glif_models/ll.csv')
-lnpred_truth_dict = pd.read_csv('../analysis/glif_models/ln.csv')
-clpred_truth_dict = pd.read_csv('../analysis/glif_models/cl.csv')
-cnpred_truth_dict = pd.read_csv('../analysis/glif_models/cn.csv')
-mlpred_truth_dict = pd.read_csv('../analysis/glif_models/ml.csv')
-mnpred_truth_dict = pd.read_csv('../analysis/glif_models/mn.csv')
-lclpred_truth_dict = pd.read_csv('../analysis/glif_models/lcl.csv')
-lcnpred_truth_dict = pd.read_csv('../analysis/glif_models/lcn.csv')
-lmlpred_truth_dict = pd.read_csv('../analysis/glif_models/lml.csv')
-lmnpred_truth_dict = pd.read_csv('../analysis/glif_models/lmn.csv')
-cmlpred_truth_dict = pd.read_csv('../analysis/glif_models/cml.csv')
-cmnpred_truth_dict = pd.read_csv('../analysis/glif_models/cmn.csv')
-lcmlpred_truth_dict = pd.read_csv('../analysis/glif_models/lcml.csv')
-lcmnpred_truth_dict = pd.read_csv('../analysis/glif_models/lcmn.csv')
+# lnpred_truth_dict = pd.read_csv('../analysis/glif_models/ln.csv')
+# clpred_truth_dict = pd.read_csv('../analysis/glif_models/cl.csv')
+# cnpred_truth_dict = pd.read_csv('../analysis/glif_models/cn.csv')
+# mlpred_truth_dict = pd.read_csv('../analysis/glif_models/ml.csv')
+# mnpred_truth_dict = pd.read_csv('../analysis/glif_models/mn.csv')
+# lclpred_truth_dict = pd.read_csv('../analysis/glif_models/lcl.csv')
+# lcnpred_truth_dict = pd.read_csv('../analysis/glif_models/lcn.csv')
+# lmlpred_truth_dict = pd.read_csv('../analysis/glif_models/lml.csv')
+# lmnpred_truth_dict = pd.read_csv('../analysis/glif_models/lmn.csv')
+# cmlpred_truth_dict = pd.read_csv('../analysis/glif_models/cml.csv')
+# cmnpred_truth_dict = pd.read_csv('../analysis/glif_models/cmn.csv')
+# lcmlpred_truth_dict = pd.read_csv('../analysis/glif_models/lcml.csv')
+# lcmnpred_truth_dict = pd.read_csv('../analysis/glif_models/lcmn.csv')
 
-df_list = [llpred_truth_dict, lnpred_truth_dict, clpred_truth_dict, 
-            cnpred_truth_dict, mlpred_truth_dict, mnpred_truth_dict, 
-            lclpred_truth_dict, lcnpred_truth_dict, lmlpred_truth_dict, 
-            lmnpred_truth_dict, cmlpred_truth_dict, cmnpred_truth_dict, 
-            lcmlpred_truth_dict, lcmnpred_truth_dict]
+mlp0pred_truth_dict = pd.read_csv('../analysis/glif_models/ll.csv')
+mlp1pred_truth_dict = pd.read_csv('../analysis/glif_models/ln.csv')
+mlp2pred_truth_dict = pd.read_csv('../analysis/glif_models/cl.csv')
+mlp3pred_truth_dict = pd.read_csv('../analysis/glif_models/cn.csv')
+mlp3pred_truth_dict = pd.read_csv('../analysis/glif_models/ml.csv')
 
-label_list = ['ll', 'ln', 'cl', 'cn', 'ml', 'mn', 'lcl', 'lcn', 'lml', 'lmn', 'cml', 'cmn', 'lcml', 'lcmn']
+# df_list = [llpred_truth_dict, lnpred_truth_dict, clpred_truth_dict, 
+#             cnpred_truth_dict, mlpred_truth_dict, mnpred_truth_dict, 
+#             lclpred_truth_dict, lcnpred_truth_dict, lmlpred_truth_dict, 
+#             lmnpred_truth_dict, cmlpred_truth_dict, cmnpred_truth_dict, 
+#             lcmlpred_truth_dict, lcmnpred_truth_dict]
+
+# label_list = ['ll', 'ln', 'cl', 'cn', 'ml', 'mn', 'lcl', 'lcn', 'lml', 'lmn', 'cml', 'cmn', 'lcml', 'lcmn']
 
 # df_list = [lcmnpred_truth_dict]
 
 # label_list = ['lcmn']
+
+mlp0pred_truth_dict = pd.read_csv('../analysis/glif_models/mlp0.csv')
+mlp1pred_truth_dict = pd.read_csv('../analysis/glif_models/mlp1.csv')
+mlp2pred_truth_dict = pd.read_csv('../analysis/glif_models/mlp2.csv')
+mlp3pred_truth_dict = pd.read_csv('../analysis/glif_models/mlp3.csv')
+mlp4pred_truth_dict = pd.read_csv('../analysis/glif_models/mlp4.csv')
+
+df_list = [mlp0pred_truth_dict, mlp1pred_truth_dict, mlp2pred_truth_dict, mlp3pred_truth_dict, mlp4pred_truth_dict]
+
+label_list = ['mlp0', 'mlp1', 'mlp2', 'mlp3', 'mlp4']
 
 has_model = llpred_truth_dict['has_model'].to_numpy()
 
 neuron_config_base = {
     'El_reference': np.nan,
     'C': np.nan,
-    'asc_amp_array': [np.nan, np.nan],
+    'asc_amp_array': [0., 0.],
     'init_threshold': np.nan,
     'threshold_reset_method': {'params': {}, 'name': 'inf'},
     'th_inf': np.nan,
@@ -96,7 +112,7 @@ neuron_config_base = {
     'dt': 5e-05,
     'voltage_dynamics_method': {'params': {}, 'name': 'linear_forward_euler'},
     'El': 0.0,
-    'asc_tau_array': [np.nan, np.nan],
+    'asc_tau_array': [0.01, 0.01],
     'R_input': np.nan,
     'AScurrent_dynamics_method': {'params': {}, 'name': 'exp'},
     'AScurrent_reset_method': {'params': {'r': [1.0, 1.0]}, 'name': 'sum'},
@@ -107,7 +123,7 @@ neuron_config_base = {
         'C': 1,
         'b': 1,
         'G': 1,
-        'th_inf': np.nan,
+        'th_inf': 1.0,
         'asc_amp_array': [1.0, 1.0]
     },
     'type': 'GLIF'
@@ -268,13 +284,13 @@ for idx, cell_id in enumerate(cell_ids):
             neuron_config = copy.deepcopy(neuron_config_base)
             neuron_config['El_reference'] = params['El_reference']
             neuron_config['C'] = params['C']
-            neuron_config['asc_amp_array'] = [params['asc_amp_array_0'], params['asc_amp_array_1']]
+            # neuron_config['asc_amp_array'] = [params['asc_amp_array_0'], params['asc_amp_array_1']]
             neuron_config['init_threshold'] = params['init_threshold']
             neuron_config['th_inf'] = params['init_threshold']
             neuron_config['spike_cut_length'] = params['spike_cut_length']
-            neuron_config['asc_tau_array'] = [params['asc_tau_array_0'], params['asc_tau_array_1']]
+            # neuron_config['asc_tau_array'] = [params['asc_tau_array_0'], params['asc_tau_array_1']]
             neuron_config['R_input'] = params['R_input']
-            neuron_config['coeffs']['th_inf'] = params['coeffs_th_inf']
+            # neuron_config['coeffs']['th_inf'] = params['coeffs_th_inf']
             
             # import pdb; pdb.set_trace()
 
@@ -307,7 +323,7 @@ for idx, cell_id in enumerate(cell_ids):
     
     # results.append(cell_results)
     if len(cell_results) > 1:
-        with open(f'../analysis/glif_models/scores/{cell_id}.json', 'w') as f:
+        with open(f'../analysis/glif_models/mlp_scores/{cell_id}.json', 'w') as f:
             json.dump(cell_results, f)
     
     os.remove(f'{temp_file}.nwb')

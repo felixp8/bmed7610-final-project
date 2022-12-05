@@ -1,0 +1,6585 @@
+8
+2: 321708130
+1670225983.9211721
+
+2022-12-05 02:39:44,085 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200082
+Traceback (most recent call last):
+  File "glif_eval.py", line 165, in <module>
+    for sweep_number in data_set.get_sweep_numbers():
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/allensdk-2.13.6-py3.8.egg/allensdk/core/nwb_data_set.py", line 309, in get_sweep_numbers
+    with h5py.File(self.file_name, 'r') as f:
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/h5py/_hl/files.py", line 533, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/h5py/_hl/files.py", line 226, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+OSError: Unable to open file (file signature not found)
+
+12
+3: 323452196
+1670225983.9316165
+
+2022-12-05 02:39:44,095 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199333
+Traceback (most recent call last):
+  File "glif_eval.py", line 165, in <module>
+    for sweep_number in data_set.get_sweep_numbers():
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/allensdk-2.13.6-py3.8.egg/allensdk/core/nwb_data_set.py", line 309, in get_sweep_numbers
+    with h5py.File(self.file_name, 'r') as f:
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/h5py/_hl/files.py", line 533, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/h5py/_hl/files.py", line 226, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+OSError: Unable to open file (file signature not found)
+
+24
+6: 324493977
+1670225983.9298549
+
+2022-12-05 02:39:44,094 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200139
+Traceback (most recent call last):
+  File "glif_eval.py", line 165, in <module>
+    for sweep_number in data_set.get_sweep_numbers():
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/allensdk-2.13.6-py3.8.egg/allensdk/core/nwb_data_set.py", line 309, in get_sweep_numbers
+    with h5py.File(self.file_name, 'r') as f:
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/h5py/_hl/files.py", line 533, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/h5py/_hl/files.py", line 226, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+OSError: Unable to open file (file signature not found)
+
+36
+9: 333785962
+1670225983.9282942
+
+2022-12-05 02:39:44,091 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199989
+Traceback (most recent call last):
+  File "glif_eval.py", line 165, in <module>
+    for sweep_number in data_set.get_sweep_numbers():
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/allensdk-2.13.6-py3.8.egg/allensdk/core/nwb_data_set.py", line 309, in get_sweep_numbers
+    with h5py.File(self.file_name, 'r') as f:
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/h5py/_hl/files.py", line 533, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/home/fpei2/miniconda3/envs/bmed7610/lib/python3.8/site-packages/h5py/_hl/files.py", line 226, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+OSError: Unable to open file (file signature not found)
+
+48
+12: 466245544
+1670225983.829934
+1670225988.5746734
+no sweeps found for neuron 466245544 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:39:43,998 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199875
+
+24
+18: 473543792
+1670226011.1381242
+1670226019.8524125
+no sweeps found for neuron 473543792 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:40:11,300 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/501270533
+
+4
+1: 313862373
+1670225983.6750472
+1670225988.8438005
+sampling rate = 200000.0
+1670225990.5136542
+1670225990.5136666
+1670226034.0043352
+1670226078.2402015
+1670226121.6972933
+1670226165.4857318
+1670226209.8162959
+done
+
+2022-12-05 02:39:43,840 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202624
+
+16
+4: 323475862
+1670225983.8429222
+1670225988.6918433
+sampling rate = 200000.0
+1670225992.3290062
+1670225992.3290262
+1670226041.4267728
+1670226089.347376
+1670226137.6584587
+1670226185.2733088
+1670226233.4034224
+done
+
+2022-12-05 02:39:44,005 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199644
+
+0
+0: 313862167
+1670225983.859331
+1670225990.3434017
+sampling rate = 200000.0
+1670225995.2351885
+1670226041.428707
+1670226087.399146
+1670226132.9181566
+1670226178.4171605
+1670226223.9469879
+1670226269.4155595
+done
+
+2022-12-05 02:39:44,026 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199181
+
+20
+5: 324266189
+1670225983.7254138
+1670225992.244396
+sampling rate = 200000.0
+1670225998.0487413
+1670226046.3570359
+1670226094.0717943
+1670226141.9543357
+1670226189.3684525
+1670226236.863089
+1670226284.099169
+done
+
+2022-12-05 02:39:43,891 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199854
+
+28
+7: 327962063
+1670225983.6072812
+1670225989.1617587
+sampling rate = 200000.0
+1670225997.9665866
+1670226045.7319322
+1670226093.3447115
+1670226141.5243008
+1670226189.06227
+1670226236.561144
+1670226283.4417343
+done
+
+2022-12-05 02:39:43,812 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491197934
+
+32
+8: 333604946
+1670225983.5799398
+1670225990.2942436
+sampling rate = 200000.0
+1670225992.4718087
+1670225992.471822
+1670226050.1971884
+1670226108.830645
+1670226167.2301514
+1670226225.5039513
+1670226284.1457167
+done
+
+2022-12-05 02:39:43,814 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199980
+
+44
+11: 396608557
+1670225983.7766688
+1670225992.8712175
+sampling rate = 200000.0
+1670225995.085104
+1670225995.0851161
+1670226052.651192
+1670226110.1543698
+1670226166.606291
+1670226223.942379
+1670226281.0265217
+done
+
+2022-12-05 02:39:43,942 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200199
+
+52
+13: 469992918
+1670225983.8041646
+1670225994.793692
+sampling rate = 200000.0
+1670226002.2915192
+1670226002.2915382
+1670226061.0733309
+1670226119.1810462
+1670226177.373278
+1670226234.6043127
+1670226292.6128113
+done
+
+2022-12-05 02:39:43,969 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/487096893
+
+56
+14: 471077468
+1670225983.8371367
+1670225989.0565877
+sampling rate = 200000.0
+1670225991.2784827
+1670225991.2785063
+1670226050.034454
+1670226108.0398088
+1670226165.797357
+1670226224.0113723
+1670226280.737159
+done
+
+2022-12-05 02:39:43,999 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200244
+
+60
+15: 471077857
+1670225983.5890217
+1670225993.021152
+sampling rate = 200000.0
+1670226000.3353713
+1670226000.33539
+1670226057.9623394
+1670226114.4904008
+1670226171.7485754
+1670226228.7070322
+1670226284.809199
+done
+
+2022-12-05 02:39:43,815 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200330
+
+12
+17: 473540161
+1670226011.1715782
+1670226016.1564555
+sampling rate = 200000.0
+1670226018.1544447
+1670226018.1544583
+1670226072.0116873
+1670226125.9051528
+1670226180.0057917
+1670226233.911696
+1670226288.0873086
+done
+
+2022-12-05 02:40:11,334 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496281354
+
+12
+32: 479905853
+1670226311.8079774
+1670226315.0690932
+no sweeps found for neuron 479905853 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:45:11,968 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496582214
+
+40
+10: 341442651
+1670225983.683147
+1670225992.4217482
+sampling rate = 200000.0
+1670226000.6527572
+1670226058.8511348
+1670226117.1120956
+1670226175.9568272
+1670226234.2105556
+1670226292.692773
+1670226350.6269283
+done
+
+2022-12-05 02:39:43,848 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200479
+
+36
+19: 473564515
+1670226011.0737875
+1670226020.048999
+sampling rate = 200000.0
+1670226027.6505365
+1670226081.6501238
+1670226134.8624742
+1670226187.8331513
+1670226241.2160444
+1670226294.5540981
+1670226347.331834
+done
+
+2022-12-05 02:40:11,238 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496281382
+
+8
+16: 471087830
+1670226010.9744515
+1670226021.837228
+sampling rate = 200000.0
+1670226030.3159292
+1670226087.4117815
+1670226144.2059827
+1670226202.0248713
+1670226259.3223543
+1670226315.7420974
+1670226373.3517847
+done
+
+2022-12-05 02:40:11,135 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200235
+
+48
+20: 473943881
+1670226011.1674163
+1670226023.7701032
+sampling rate = 200000.0
+1670226037.5861485
+1670226102.2044108
+1670226165.4603984
+1670226229.0150394
+1670226283.8566835
+1670226338.4091897
+1670226392.4957771
+done
+
+2022-12-05 02:40:11,329 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496390193
+
+24
+21: 474626527
+1670226040.6208155
+1670226045.8929875
+sampling rate = 200000.0
+1670226059.8666484
+1670226113.995402
+1670226167.984331
+1670226221.725698
+1670226275.676778
+1670226330.253128
+1670226384.2522547
+done
+
+2022-12-05 02:40:40,804 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198297
+
+36
+35: 482516713
+1670226370.7849963
+1670226378.0198815
+no sweeps found for neuron 482516713 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:46:10,949 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316028
+
+16
+23: 475068599
+1670226250.5423782
+1670226257.6068854
+sampling rate = 200000.0
+1670226261.2199688
+1670226261.219983
+1670226323.4122403
+1670226376.6387234
+1670226430.19838
+1670226482.7421536
+1670226535.4244368
+done
+
+2022-12-05 02:44:10,704 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202656
+
+4
+22: 475057898
+1670226220.8177195
+1670226230.7252996
+sampling rate = 200000.0
+1670226234.5672684
+1670226288.0295472
+1670226341.1160054
+1670226394.4935923
+1670226448.958648
+1670226502.2656293
+1670226555.8720932
+done
+
+2022-12-05 02:43:41,011 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202763
+
+0
+24: 475202388
+1670226281.0946555
+1670226285.82586
+sampling rate = 200000.0
+1670226289.6857145
+1670226289.6857262
+1670226343.708671
+1670226397.1709094
+1670226451.3300474
+1670226505.0725062
+1670226559.1202526
+done
+
+2022-12-05 02:44:41,286 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202348
+
+16
+40: 488504814
+1670226551.4045322
+1670226559.5261004
+no sweeps found for neuron 488504814 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:49:11,596 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496285692
+
+32
+27: 475623964
+1670226311.655655
+1670226323.8345547
+sampling rate = 200000.0
+1670226331.6586764
+1670226331.6586974
+1670226385.1858504
+1670226438.7194235
+1670226492.5701253
+1670226546.3910332
+1670226600.326639
+done
+
+2022-12-05 02:45:11,817 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491216195
+
+16
+43: 490387590
+1670226581.1629117
+1670226589.4643848
+no sweeps found for neuron 490387590 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:49:41,328 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496453599
+
+20
+25: 475549284
+1670226311.889622
+1670226319.9207516
+sampling rate = 200000.0
+1670226326.426788
+1670226326.4268095
+1670226383.0808127
+1670226439.9441915
+1670226496.8785539
+1670226553.723207
+1670226609.9825299
+done
+
+2022-12-05 02:45:12,050 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200515
+
+40
+34: 481136138
+1670226370.87997
+1670226375.54045
+sampling rate = 200000.0
+1670226377.5331006
+1670226377.5331125
+1670226429.519194
+1670226481.8311245
+1670226533.6860719
+1670226585.3928945
+1670226637.2630904
+done
+
+2022-12-05 02:46:11,041 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316980
+
+32
+44: 509515969
+1670226611.243176
+1670226613.5108778
+no sweeps found for neuron 509515969 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:50:11,405 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515522036
+
+28
+26: 475585413
+1670226311.8198094
+1670226319.84474
+sampling rate = 200000.0
+1670226328.7789235
+1670226383.0983136
+1670226436.975193
+1670226490.1045878
+1670226543.6478746
+1670226597.042144
+1670226650.564274
+done
+
+2022-12-05 02:45:11,979 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201503
+
+44
+28: 476686112
+1670226311.8033667
+1670226320.3861003
+sampling rate = 200000.0
+1670226328.3307767
+1670226382.6477666
+1670226436.5465033
+1670226490.4078364
+1670226544.54976
+1670226598.281727
+1670226652.1383946
+done
+
+2022-12-05 02:45:11,965 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491216145
+
+52
+29: 477880128
+1670226311.881995
+1670226321.8038096
+sampling rate = 200000.0
+1670226334.6497684
+1670226389.5138748
+1670226443.8441808
+1670226497.8518696
+1670226551.7551281
+1670226605.8762934
+1670226660.0800624
+done
+
+2022-12-05 02:45:12,044 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201690
+
+60
+31: 478110866
+1670226311.645138
+1670226317.4682329
+sampling rate = 200000.0
+1670226324.5069265
+1670226381.3221676
+1670226437.622224
+1670226493.530526
+1670226549.3582587
+1670226605.4468627
+1670226661.1469018
+done
+
+2022-12-05 02:45:11,821 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201378
+
+56
+30: 478058328
+1670226311.8430223
+1670226322.9185774
+sampling rate = 200000.0
+1670226336.8196042
+1670226396.0118532
+1670226455.3781
+1670226514.0666919
+1670226572.6208732
+1670226631.4854066
+1670226690.1692955
+done
+
+2022-12-05 02:45:12,001 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200712
+
+24
+38: 487099387
+1670226401.2980874
+1670226409.287367
+sampling rate = 200000.0
+1670226419.7475019
+1670226419.7475188
+1670226473.0223076
+1670226526.3527632
+1670226578.4353094
+1670226631.132415
+1670226684.2151403
+done
+
+2022-12-05 02:46:41,476 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496453684
+
+44
+50: 516362762
+1670226671.6800325
+1670226673.9396462
+no sweeps found for neuron 516362762 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:51:11,840 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659445918
+
+12
+33: 481093525
+1670226340.9323585
+1670226351.32449
+sampling rate = 200000.0
+1670226355.6040938
+1670226412.3860176
+1670226469.7208886
+1670226526.9319909
+1670226583.7147489
+1670226640.73165
+1670226697.7266078
+done
+
+2022-12-05 02:45:41,097 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496604958
+
+48
+37: 486896849
+1670226401.3665874
+1670226409.8470073
+sampling rate = 200000.0
+1670226413.5890634
+1670226413.589083
+1670226475.8062987
+1670226538.4459834
+1670226597.1726756
+1670226651.0846944
+1670226704.8137527
+done
+
+2022-12-05 02:46:41,537 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496453693
+
+16
+45: 509617624
+1670226611.3602417
+1670226614.5081613
+sampling rate = 50000.0
+1670226615.8776553
+1670226632.00232
+1670226647.6484742
+1670226663.0315127
+1670226678.7509668
+1670226694.1186435
+1670226709.647711
+done
+
+2022-12-05 02:50:11,534 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515522045
+
+20
+46: 510715606
+1670226641.445059
+1670226644.5857399
+sampling rate = 50000.0
+1670226645.215665
+1670226645.2156887
+1670226657.944968
+1670226671.0661025
+1670226684.359759
+1670226697.017262
+1670226709.9350317
+done
+
+2022-12-05 02:50:41,611 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/529897184
+
+40
+47: 514767977
+1670226641.2986135
+1670226646.1878982
+sampling rate = 50000.0
+1670226647.6893966
+1670226661.3757813
+1670226674.668018
+1670226687.9090905
+1670226701.1606019
+1670226714.4465387
+1670226727.6750693
+done
+
+2022-12-05 02:50:41,474 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/562316361
+
+32
+48: 514824979
+1670226641.4196427
+1670226643.915399
+sampling rate = 50000.0
+1670226644.671979
+1670226658.259478
+1670226671.4587154
+1670226684.7278883
+1670226697.8916385
+1670226711.0479379
+1670226724.2140152
+done
+
+2022-12-05 02:50:41,581 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544751766
+
+36
+39: 488501071
+1670226401.3367956
+1670226413.8751218
+sampling rate = 200000.0
+1670226421.419369
+1670226475.5562243
+1670226528.431885
+1670226581.3397586
+1670226634.9707513
+1670226687.5394008
+1670226741.0308945
+done
+
+2022-12-05 02:46:41,506 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496276655
+
+28
+49: 515315072
+1670226671.68955
+1670226676.205986
+sampling rate = 50000.0
+1670226676.7439246
+1670226676.7439446
+1670226689.8648093
+1670226702.9649355
+1670226716.0164592
+1670226729.152877
+1670226742.4999008
+done
+
+2022-12-05 02:51:11,851 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659450030
+
+52
+51: 517345160
+1670226671.6201038
+1670226675.1857443
+sampling rate = 50000.0
+1670226676.460167
+1670226690.3966444
+1670226703.7230678
+1670226716.903889
+1670226730.2182622
+1670226743.600208
+1670226756.7256098
+done
+
+2022-12-05 02:51:11,800 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446027
+
+32
+61: 534303031
+1670226731.8805332
+1670226735.2775536
+no sweeps found for neuron 534303031 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:52:12,042 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659448964
+
+8
+36: 485184849
+1670226401.3635693
+1670226410.2884383
+sampling rate = 200000.0
+1670226416.603684
+1670226474.4602942
+1670226532.6622465
+1670226590.5111444
+1670226648.2034817
+1670226705.9032228
+1670226763.4225278
+done
+
+2022-12-05 02:46:41,527 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491317399
+
+60
+52: 519749342
+1670226671.6645374
+1670226675.9842417
+sampling rate = 50000.0
+1670226677.927482
+1670226691.9456758
+1670226705.6415787
+1670226719.0252318
+1670226732.6892142
+1670226746.384692
+1670226760.0776203
+done
+
+2022-12-05 02:51:11,824 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544751758
+
+44
+55: 526531616
+1670226701.1986027
+1670226703.2923472
+sampling rate = 50000.0
+1670226704.0609577
+1670226717.3277113
+1670226730.3834887
+1670226743.3354023
+1670226756.2188487
+1670226769.2089863
+1670226782.0798469
+done
+
+2022-12-05 02:51:41,361 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/562385069
+
+52
+64: 536306115
+1670226761.6991284
+1670226762.8197458
+no sweeps found for neuron 536306115 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:52:41,861 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659442563
+
+32
+65: 536951541
+1670226761.638814
+1670226765.297193
+no sweeps found for neuron 536951541 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:52:41,799 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593224
+
+56
+53: 523748610
+1670226701.3695235
+1670226706.8160057
+sampling rate = 50000.0
+1670226708.3684068
+1670226722.389557
+1670226735.9367583
+1670226749.4607708
+1670226763.0815008
+1670226776.4241552
+1670226790.1099935
+done
+
+2022-12-05 02:51:41,532 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593267
+
+24
+54: 524689239
+1670226701.3621764
+1670226705.7183216
+sampling rate = 50000.0
+1670226707.321515
+1670226721.1683676
+1670226734.9488943
+1670226748.6902273
+1670226762.4284034
+1670226775.9712477
+1670226789.4629962
+done
+
+2022-12-05 02:51:41,524 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/562385058
+
+12
+56: 527095729
+1670226731.8335145
+1670226735.1008458
+sampling rate = 50000.0
+1670226736.6968288
+1670226750.055141
+1670226762.967467
+1670226775.7454531
+1670226788.8376403
+1670226802.4129205
+1670226815.4848566
+done
+
+2022-12-05 02:52:11,993 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/562380958
+
+16
+58: 530731648
+1670226732.0624063
+1670226735.4243615
+sampling rate = 50000.0
+1670226735.8629477
+1670226735.862961
+1670226749.4652562
+1670226762.558909
+1670226775.4781237
+1670226788.199173
+1670226801.295446
+done
+
+2022-12-05 02:52:12,223 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593178
+
+20
+59: 530737765
+1670226731.8221967
+1670226735.9882073
+sampling rate = 50000.0
+1670226737.19206
+1670226737.1920795
+1670226750.4150841
+1670226763.7612543
+1670226776.9329712
+1670226790.3201056
+1670226803.6037366
+done
+
+2022-12-05 02:52:11,984 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593198
+
+48
+57: 527869035
+1670226732.0643144
+1670226737.2710488
+sampling rate = 50000.0
+1670226738.855631
+1670226755.0358806
+1670226770.7684636
+1670226786.1176095
+1670226801.7560534
+1670226816.813368
+1670226833.6387942
+done
+
+2022-12-05 02:52:12,225 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/562380969
+
+40
+60: 534141324
+1670226731.722429
+1670226736.252161
+sampling rate = 50000.0
+1670226737.8227162
+1670226751.5149353
+1670226764.8692513
+1670226778.0058594
+1670226791.6334686
+1670226805.214888
+1670226818.4756334
+done
+
+2022-12-05 02:52:11,904 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/567444780
+
+36
+62: 535708196
+1670226761.7324936
+1670226765.985348
+sampling rate = 50000.0
+1670226767.461048
+1670226778.6123984
+1670226791.5925272
+1670226804.581205
+1670226817.5287998
+1670226830.4487462
+1670226843.2912238
+done
+
+2022-12-05 02:52:41,893 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/566093647
+
+28
+63: 535728342
+1670226761.734347
+1670226765.5256085
+sampling rate = 50000.0
+1670226767.080137
+1670226780.582239
+1670226794.04705
+1670226807.151975
+1670226820.3526793
+1670226833.8128936
+1670226846.9644585
+done
+
+2022-12-05 02:52:41,893 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/566093635
+
+0
+42: 490382353
+1670226581.2371855
+1670226588.888279
+sampling rate = 200000.0
+1670226594.8128564
+1670226594.8128777
+1670226649.0122156
+1670226702.9546185
+1670226757.5536082
+1670226811.8174975
+1670226865.6082287
+done
+
+2022-12-05 02:49:41,398 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496390133
+
+8
+66: 539014038
+1670226792.1021717
+1670226795.4690976
+sampling rate = 50000.0
+1670226796.2683702
+1670226796.2683806
+1670226809.29774
+1670226822.3825572
+1670226835.358089
+1670226848.2996826
+1670226861.5473657
+done
+
+2022-12-05 02:53:12,264 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593229
+
+44
+68: 547325858
+1670226792.0987108
+1670226797.5284753
+sampling rate = 50000.0
+1670226798.6453478
+1670226812.163344
+1670226825.2848153
+1670226838.3908458
+1670226851.3498304
+1670226864.3822317
+1670226877.20487
+done
+
+2022-12-05 02:53:12,260 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593355
+
+52
+69: 547344442
+1670226791.919162
+1670226796.2044072
+sampling rate = 50000.0
+1670226797.7973042
+1670226811.1874852
+1670226824.5607193
+1670226837.813662
+1670226850.9063964
+1670226864.0429714
+1670226877.1029515
+done
+
+2022-12-05 02:53:12,103 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593345
+
+32
+70: 554779051
+1670226792.0340707
+1670226795.7932222
+sampling rate = 50000.0
+1670226796.6769242
+1670226796.6769357
+1670226809.3582418
+1670226822.3082845
+1670226834.9978693
+1670226847.6451285
+1670226860.6119514
+done
+
+2022-12-05 02:53:12,195 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593292
+
+60
+67: 547262585
+1670226792.0623398
+1670226796.4636402
+sampling rate = 50000.0
+1670226798.0631657
+1670226811.6492074
+1670226824.9495723
+1670226838.3003917
+1670226851.8817232
+1670226866.1790454
+1670226879.7293863
+done
+
+2022-12-05 02:53:12,224 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593327
+
+56
+71: 554807924
+1670226822.0204773
+1670226826.2077658
+sampling rate = 50000.0
+1670226827.5118284
+1670226827.5118418
+1670226840.4823046
+1670226853.6873493
+1670226866.7908905
+1670226879.9059281
+1670226892.885406
+done
+
+2022-12-05 02:53:42,181 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659445819
+
+24
+72: 555001065
+1670226822.0323024
+1670226825.1320026
+sampling rate = 50000.0
+1670226825.5772297
+1670226825.5772464
+1670226838.7216692
+1670226851.9221454
+1670226865.1740606
+1670226878.2942443
+1670226891.635514
+done
+
+2022-12-05 02:53:42,191 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593282
+
+12
+73: 555019563
+1670226821.9362967
+1670226826.811425
+sampling rate = 50000.0
+1670226827.6077886
+1670226827.6077995
+1670226840.3683743
+1670226853.2516315
+1670226866.3444932
+1670226878.9373198
+1670226892.3300145
+done
+
+2022-12-05 02:53:42,097 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593322
+
+20
+75: 555241040
+1670226822.0316796
+1670226825.8954077
+sampling rate = 50000.0
+1670226826.8420327
+1670226826.8420537
+1670226838.7686436
+1670226850.3962457
+1670226862.3834999
+1670226873.859929
+1670226886.6020894
+done
+
+2022-12-05 02:53:42,190 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593302
+
+4
+41: 488677994
+1670226581.3345506
+1670226590.6745913
+sampling rate = 200000.0
+1670226596.3605876
+1670226649.115823
+1670226701.599977
+1670226754.0342712
+1670226807.713981
+1670226861.2027912
+1670226913.7496722
+done
+
+2022-12-05 02:49:41,499 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/500919495
+
+16
+74: 555089724
+1670226821.9959931
+1670226826.3213637
+sampling rate = 50000.0
+1670226827.8871834
+1670226842.7571857
+1670226857.6658866
+1670226871.9910402
+1670226886.4825163
+1670226900.4761648
+1670226914.758926
+done
+
+2022-12-05 02:53:42,158 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659442671
+
+40
+77: 555697303
+1670226851.8633108
+1670226856.2094843
+sampling rate = 50000.0
+1670226857.3317099
+1670226870.9254692
+1670226884.4031355
+1670226897.7118287
+1670226910.827614
+1670226923.9618514
+1670226936.9437134
+done
+
+2022-12-05 02:54:12,035 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593312
+
+36
+78: 556923554
+1670226852.0262206
+1670226855.4379594
+sampling rate = 50000.0
+1670226855.862034
+1670226855.862046
+1670226869.082487
+1670226882.3967872
+1670226895.6969132
+1670226909.0622015
+1670226922.3658743
+done
+
+2022-12-05 02:54:12,187 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659442718
+
+48
+76: 555345752
+1670226851.9862993
+1670226856.772199
+sampling rate = 50000.0
+1670226858.0803163
+1670226872.071601
+1670226885.7700603
+1670226899.0025725
+1670226912.354366
+1670226925.797477
+1670226939.3051636
+done
+
+2022-12-05 02:54:12,148 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659442350
+
+28
+79: 556968207
+1670226851.959458
+1670226855.0434299
+sampling rate = 50000.0
+1670226857.0577147
+1670226871.2748
+1670226884.9829545
+1670226898.508888
+1670226912.096257
+1670226925.7544768
+1670226939.376276
+done
+
+2022-12-05 02:54:12,142 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592965899
+
+52
+83: 560992553
+1670226882.1614625
+1670226886.0054028
+sampling rate = 50000.0
+1670226886.455607
+1670226886.4556205
+1670226899.5688
+1670226912.9762626
+1670226926.4371006
+1670226939.704572
+1670226952.9214582
+done
+
+2022-12-05 02:54:42,322 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593340
+
+32
+84: 561325425
+1670226882.0122664
+1670226886.3895369
+sampling rate = 50000.0
+1670226888.1257253
+1670226901.6668289
+1670226914.8543425
+1670226927.7544253
+1670226940.7442262
+1670226953.7664158
+1670226966.8042367
+done
+
+2022-12-05 02:54:42,175 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592966944
+
+0
+80: 557261437
+1670226882.1328056
+1670226886.5004864
+sampling rate = 50000.0
+1670226888.139584
+1670226902.7491035
+1670226917.2707682
+1670226931.5395784
+1670226945.82814
+1670226960.3368816
+1670226975.0918782
+done
+
+2022-12-05 02:54:42,294 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592965938
+
+8
+81: 560753350
+1670226882.1594136
+1670226886.3930116
+sampling rate = 50000.0
+1670226888.051438
+1670226901.6160445
+1670226914.869944
+1670226927.9029722
+1670226941.3443644
+1670226954.9369714
+1670226968.1818829
+done
+
+2022-12-05 02:54:42,319 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593317
+
+44
+82: 560965993
+1670226882.1177282
+1670226886.9142473
+sampling rate = 50000.0
+1670226888.1751444
+1670226902.3034947
+1670226916.058316
+1670226929.3949795
+1670226942.7851408
+1670226956.1880379
+1670226969.6492991
+done
+
+2022-12-05 02:54:42,279 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593307
+
+56
+86: 561532710
+1670226912.3198957
+1670226915.9543064
+sampling rate = 50000.0
+1670226916.8039594
+1670226916.8039744
+1670226929.797585
+1670226942.9385953
+1670226955.916415
+1670226968.8917081
+1670226982.226139
+done
+
+2022-12-05 02:55:12,486 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593287
+
+24
+87: 561934585
+1670226912.3302612
+1670226917.2025912
+sampling rate = 50000.0
+1670226918.4692008
+1670226931.8535824
+1670226944.8910973
+1670226957.7433903
+1670226970.7873304
+1670226983.8467202
+1670226996.625207
+done
+
+2022-12-05 02:55:12,494 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592967772
+
+12
+88: 561940338
+1670226911.9743693
+1670226916.8061824
+sampling rate = 50000.0
+1670226917.9476569
+1670226917.9476686
+1670226931.237816
+1670226944.717238
+1670226958.18149
+1670226971.7037663
+1670226984.9582264
+done
+
+2022-12-05 02:55:12,135 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593297
+
+20
+89: 561985849
+1670226912.2251792
+1670226916.3442612
+sampling rate = 50000.0
+1670226917.3303409
+1670226917.3303607
+1670226930.629657
+1670226944.0073586
+1670226957.324344
+1670226970.6075294
+1670226983.9843972
+done
+
+2022-12-05 02:55:12,387 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593162
+
+48
+94: 565120091
+1670226972.1697886
+1670226976.5308342
+no sweeps found for neuron 565120091 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:56:12,358 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593332
+
+60
+85: 561517025
+1670226912.281603
+1670226916.85923
+sampling rate = 50000.0
+1670226918.5844493
+1670226932.0518053
+1670226945.668978
+1670226958.9069374
+1670226972.3945887
+1670226985.68214
+1670226998.7321045
+done
+
+2022-12-05 02:55:12,446 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592967718
+
+4
+90: 562003142
+1670226941.999873
+1670226946.0493994
+sampling rate = 50000.0
+1670226946.924618
+1670226946.9246297
+1670226959.5661223
+1670226972.3424728
+1670226984.8070915
+1670226997.1060898
+1670227009.8881092
+done
+
+2022-12-05 02:55:42,161 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593272
+
+16
+91: 562632795
+1670226942.034806
+1670226945.2322187
+sampling rate = 50000.0
+1670226945.6868393
+1670226945.6868527
+1670226958.94155
+1670226973.1356199
+1670226988.861512
+1670227004.4365308
+1670227017.7955966
+done
+
+2022-12-05 02:55:42,196 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593350
+
+40
+92: 564346637
+1670226942.0521595
+1670226946.3137836
+sampling rate = 50000.0
+1670226947.4515789
+1670226961.1960049
+1670226974.7668247
+1670226987.953992
+1670227001.3456004
+1670227014.772526
+1670227028.110844
+done
+
+2022-12-05 02:55:42,213 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592967943
+
+36
+93: 564349611
+1670226941.9918382
+1670226945.4927375
+sampling rate = 50000.0
+1670226946.3654284
+1670226960.1872349
+1670226973.3790042
+1670226986.4916642
+1670226999.3907557
+1670227012.597578
+1670227025.5888786
+done
+
+2022-12-05 02:55:42,152 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659442762
+
+0
+98: 565417112
+1670227002.7412846
+1670227005.7137268
+no sweeps found for neuron 565417112 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:56:42,907 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/663458930
+
+56
+101: 565855793
+1670227002.9012768
+1670227005.8093734
+no sweeps found for neuron 565855793 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:56:43,062 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446223
+
+16
+108: 566678900
+1670227032.627484
+1670227035.942179
+no sweeps found for neuron 566678900 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:57:12,818 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659445786
+
+56
+112: 567312865
+1670227032.6490595
+1670227034.6063364
+no sweeps found for neuron 567312865 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:57:12,814 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441282
+
+28
+95: 565209132
+1670226972.1666474
+1670226976.7544847
+sampling rate = 50000.0
+1670226978.374731
+1670226991.770784
+1670227005.0626724
+1670227018.2638218
+1670227031.8546455
+1670227045.0500932
+1670227058.2868228
+done
+
+2022-12-05 02:56:12,327 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659442482
+
+52
+96: 565407476
+1670226972.1778073
+1670226976.3975663
+sampling rate = 50000.0
+1670226977.9669821
+1670226991.6253927
+1670227005.3779263
+1670227018.8230898
+1670227032.4257731
+1670227045.836968
+1670227059.1150916
+done
+
+2022-12-05 02:56:12,358 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446331
+
+32
+97: 565415071
+1670226972.0334368
+1670226976.2197886
+sampling rate = 50000.0
+1670226977.4447155
+1670226991.267996
+1670227004.82237
+1670227018.2637897
+1670227031.910615
+1670227045.5241032
+1670227059.0417054
+done
+
+2022-12-05 02:56:12,195 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446275
+
+8
+99: 565459685
+1670227002.7503066
+1670227006.5563922
+sampling rate = 50000.0
+1670227006.9794097
+1670227006.9794204
+1670227019.5365334
+1670227032.3778312
+1670227045.5430543
+1670227058.576449
+1670227071.3060267
+done
+
+2022-12-05 02:56:42,912 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593401
+
+44
+100: 565462089
+1670227002.872125
+1670227007.2033777
+sampling rate = 50000.0
+1670227008.487836
+1670227008.487849
+1670227021.3914728
+1670227034.5087888
+1670227047.4816
+1670227060.4767094
+1670227073.4179785
+done
+
+2022-12-05 02:56:43,033 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593428
+
+24
+102: 565866518
+1670227002.9079418
+1670227007.7721255
+sampling rate = 50000.0
+1670227009.4694445
+1670227023.0994146
+1670227036.6152992
+1670227049.4825325
+1670227062.6092758
+1670227075.4255455
+1670227088.3032815
+done
+
+2022-12-05 02:56:43,072 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593423
+
+48
+105: 566541912
+1670227002.7987244
+1670227006.429179
+sampling rate = 50000.0
+1670227008.0058708
+1670227021.532687
+1670227034.883072
+1670227048.011817
+1670227061.281547
+1670227074.5753777
+1670227087.524895
+done
+
+2022-12-05 02:56:42,963 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592968091
+
+12
+103: 565880475
+1670227002.9102283
+1670227007.1262414
+sampling rate = 50000.0
+1670227008.6808276
+1670227022.1407952
+1670227035.4518912
+1670227048.7671885
+1670227062.249776
+1670227075.4590933
+1670227088.4939432
+done
+
+2022-12-05 02:56:43,070 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659449544
+
+20
+104: 565888394
+1670227002.8784084
+1670227007.9684896
+sampling rate = 50000.0
+1670227009.2404065
+1670227023.0616283
+1670227036.858736
+1670227050.2480493
+1670227063.6887531
+1670227077.0894303
+1670227090.7432077
+done
+
+2022-12-05 02:56:43,042 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446340
+
+60
+106: 566647353
+1670227032.7462218
+1670227036.082175
+sampling rate = 50000.0
+1670227036.5571108
+1670227036.5571253
+1670227049.9540386
+1670227063.643698
+1670227077.303013
+1670227091.3052464
+1670227105.0110686
+done
+
+2022-12-05 02:57:12,908 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593395
+
+36
+110: 567007144
+1670227032.7646825
+1670227034.7635787
+sampling rate = 50000.0
+1670227035.5336027
+1670227049.14521
+1670227062.2491589
+1670227075.193362
+1670227088.1102383
+1670227101.241723
+1670227114.2582576
+done
+
+2022-12-05 02:57:12,925 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659449496
+
+0
+111: 567029686
+1670227032.7077103
+1670227036.1659327
+sampling rate = 50000.0
+1670227037.299254
+1670227050.79433
+1670227064.0301971
+1670227077.1394868
+1670227090.6087294
+1670227103.806383
+1670227116.8734312
+done
+
+2022-12-05 02:57:12,872 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592968472
+
+24
+120: 569723367
+1670227092.8635275
+1670227096.4265213
+no sweeps found for neuron 569723367 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:58:13,022 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447047
+
+4
+107: 566671538
+1670227032.7611902
+1670227037.6210477
+sampling rate = 50000.0
+1670227038.8018036
+1670227052.6959524
+1670227066.11091
+1670227079.3538332
+1670227092.7014425
+1670227105.9243865
+1670227119.301697
+done
+
+2022-12-05 02:57:12,925 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592968210
+
+40
+109: 566761793
+1670227032.6855288
+1670227037.6680646
+sampling rate = 50000.0
+1670227038.4835281
+1670227052.5276048
+1670227066.2695749
+1670227079.8324435
+1670227093.652441
+1670227107.4936352
+1670227120.9985013
+done
+
+2022-12-05 02:57:12,850 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592968272
+
+56
+114: 567354967
+1670227061.8641224
+1670227066.0524561
+sampling rate = 50000.0
+1670227066.8979154
+1670227080.2889106
+1670227093.8310778
+1670227107.0619373
+1670227120.285418
+1670227134.070871
+1670227147.2344513
+done
+
+2022-12-05 02:57:42,026 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592969031
+
+16
+113: 567320213
+1670227061.9778864
+1670227065.7545362
+sampling rate = 50000.0
+1670227067.2865057
+1670227081.039044
+1670227094.6619222
+1670227108.308927
+1670227121.6838934
+1670227135.3171093
+1670227148.6737022
+done
+
+2022-12-05 02:57:42,140 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592968920
+
+28
+115: 567927838
+1670227092.9070992
+1670227096.6103878
+sampling rate = 50000.0
+1670227097.099627
+1670227097.0996408
+1670227110.206415
+1670227123.7897115
+1670227137.470831
+1670227150.6264596
+1670227163.84931
+done
+
+2022-12-05 02:58:13,066 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447004
+
+52
+116: 567952169
+1670227092.7439811
+1670227097.3240664
+sampling rate = 50000.0
+1670227097.8367426
+1670227097.836756
+1670227109.9983377
+1670227122.276911
+1670227134.7431931
+1670227146.5898373
+1670227158.7131784
+done
+
+2022-12-05 02:58:12,926 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593433
+
+32
+117: 569072334
+1670227092.8938196
+1670227095.0475676
+sampling rate = 50000.0
+1670227096.2158494
+1670227109.7213497
+1670227123.2068784
+1670227136.6079829
+1670227149.6427293
+1670227162.9529734
+1670227176.2085497
+done
+
+2022-12-05 02:58:13,055 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593443
+
+8
+118: 569494755
+1670227092.905426
+1670227096.2428043
+sampling rate = 50000.0
+1670227097.5451124
+1670227111.0989115
+1670227124.2156599
+1670227137.2277384
+1670227150.5067918
+1670227163.7377412
+1670227176.962946
+done
+
+2022-12-05 02:58:13,065 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659445662
+
+48
+121: 569723405
+1670227092.8441308
+1670227097.00713
+sampling rate = 50000.0
+1670227098.451595
+1670227098.4516118
+1670227111.1092906
+1670227124.0850077
+1670227136.9086692
+1670227149.8147717
+1670227162.5467148
+done
+
+2022-12-05 02:58:13,006 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593386
+
+44
+119: 569670455
+1670227092.8283281
+1670227098.3448927
+sampling rate = 50000.0
+1670227099.446806
+1670227113.2589447
+1670227127.0506496
+1670227140.32904
+1670227153.8241904
+1670227167.2703893
+1670227180.7225533
+done
+
+2022-12-05 02:58:12,988 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592969975
+
+12
+122: 569809287
+1670227122.628541
+1670227126.6087565
+sampling rate = 50000.0
+1670227128.1865246
+1670227141.46389
+1670227154.4237576
+1670227167.469164
+1670227180.5750465
+1670227193.4106827
+1670227205.926071
+done
+
+2022-12-05 02:58:42,790 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593438
+
+20
+123: 569810649
+1670227122.243708
+1670227127.4246397
+sampling rate = 50000.0
+1670227128.634107
+1670227142.265571
+1670227155.532345
+1670227168.4893594
+1670227181.5903656
+1670227194.7614212
+1670227207.7023938
+done
+
+2022-12-05 02:58:42,406 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592969930
+
+60
+124: 569958754
+1670227122.5702558
+1670227126.6374154
+sampling rate = 50000.0
+1670227127.065088
+1670227127.0651011
+1670227140.4351885
+1670227153.8007865
+1670227167.0467832
+1670227180.2020738
+1670227193.7910604
+done
+
+2022-12-05 02:58:42,731 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441390
+
+36
+125: 569965244
+1670227122.5665417
+1670227127.347166
+sampling rate = 50000.0
+1670227127.790475
+1670227127.7904875
+1670227141.0438366
+1670227154.428496
+1670227169.5773027
+1670227183.0854402
+1670227196.3115077
+done
+
+2022-12-05 02:58:42,729 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441343
+
+0
+126: 569998790
+1670227122.6651187
+1670227127.87304
+sampling rate = 50000.0
+1670227128.3188753
+1670227128.3188858
+1670227141.1335459
+1670227154.0898817
+1670227166.957213
+1670227179.9642127
+1670227192.8457968
+done
+
+2022-12-05 02:58:42,826 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593448
+
+24
+127: 570438732
+1670227122.6897147
+1670227127.359207
+sampling rate = 50000.0
+1670227128.9365573
+1670227142.5736363
+1670227156.0385785
+1670227169.0673869
+1670227182.1801198
+1670227195.2763238
+1670227208.3060365
+done
+
+2022-12-05 02:58:42,851 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592969937
+
+16
+131: 571311039
+1670227182.8186083
+1670227186.29491
+no sweeps found for neuron 571311039 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:59:42,980 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447033
+
+32
+134: 571867358
+1670227182.863049
+1670227186.6273477
+no sweeps found for neuron 571867358 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:59:43,024 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447163
+
+8
+135: 572609108
+1670227182.86539
+1670227186.782969
+no sweeps found for neuron 572609108 with stimulus b'Noise 1'
+done
+
+2022-12-05 02:59:43,026 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447184
+
+4
+128: 570896413
+1670227152.3039043
+1670227156.9498951
+sampling rate = 50000.0
+1670227158.5050664
+1670227158.5050795
+1670227173.026935
+1670227186.692561
+1670227200.0113795
+1670227213.5677233
+1670227227.3291981
+done
+
+2022-12-05 02:59:12,464 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593387
+
+40
+129: 570896453
+1670227152.1626368
+1670227156.5145419
+sampling rate = 50000.0
+1670227158.0132043
+1670227158.0132163
+1670227171.5039833
+1670227185.2530072
+1670227198.4658413
+1670227211.7618566
+1670227225.236594
+done
+
+2022-12-05 02:59:12,342 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659449444
+
+56
+130: 570946690
+1670227152.2495916
+1670227156.6006799
+sampling rate = 50000.0
+1670227157.4765153
+1670227157.4765296
+1670227169.903237
+1670227182.7835639
+1670227195.6225817
+1670227208.220862
+1670227222.0523202
+done
+
+2022-12-05 02:59:12,410 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447116
+
+28
+132: 571379222
+1670227182.8029323
+1670227186.6648512
+sampling rate = 50000.0
+1670227187.208362
+1670227187.2083757
+1670227200.6738224
+1670227214.3561032
+1670227228.1849458
+1670227241.5240662
+1670227254.7953877
+done
+
+2022-12-05 02:59:42,965 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447021
+
+48
+136: 573404307
+1670227182.8524866
+1670227187.5626647
+sampling rate = 50000.0
+1670227188.3741918
+1670227201.8185556
+1670227215.2867305
+1670227228.6643314
+1670227241.5536146
+1670227254.6565042
+1670227267.5234761
+done
+
+2022-12-05 02:59:43,013 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593545
+
+52
+133: 571396942
+1670227182.4974544
+1670227189.205749
+sampling rate = 50000.0
+1670227190.0692139
+1670227204.040597
+1670227218.37162
+1670227232.028153
+1670227245.6920826
+1670227259.337297
+1670227273.021923
+done
+
+2022-12-05 02:59:42,679 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/646542287
+
+12
+138: 574036994
+1670227213.5909088
+1670227218.2293983
+sampling rate = 50000.0
+1670227218.6817622
+1670227218.6817734
+1670227232.1552048
+1670227245.6151931
+1670227259.1635227
+1670227272.7160084
+1670227286.2051938
+done
+
+2022-12-05 03:00:13,756 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446173
+
+60
+140: 574059157
+1670227213.500275
+1670227217.165466
+sampling rate = 50000.0
+1670227217.6346424
+1670227217.634655
+1670227231.128652
+1670227244.4954078
+1670227258.1450617
+1670227271.886152
+1670227285.1144013
+done
+
+2022-12-05 03:00:13,666 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447216
+
+36
+141: 574067499
+1670227213.6564972
+1670227217.9154286
+sampling rate = 50000.0
+1670227218.4290779
+1670227218.4290898
+1670227230.9817703
+1670227243.6268897
+1670227256.3382764
+1670227268.8502288
+1670227281.4125402
+done
+
+2022-12-05 03:00:13,820 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593510
+
+0
+142: 574377552
+1670227213.6493084
+1670227216.6769335
+sampling rate = 50000.0
+1670227217.150762
+1670227217.1507728
+1670227230.5248442
+1670227243.3687134
+1670227256.3626788
+1670227269.3864615
+1670227282.374675
+done
+
+2022-12-05 03:00:13,811 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447296
+
+24
+143: 574734127
+1670227213.0731466
+1670227217.8471076
+sampling rate = 50000.0
+1670227219.1783924
+1670227232.4123318
+1670227245.687986
+1670227258.7635581
+1670227271.4677224
+1670227284.3338823
+1670227296.9139686
+done
+
+2022-12-05 03:00:13,238 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659445698
+
+32
+145: 574993444
+1670227213.622784
+1670227217.2829597
+sampling rate = 50000.0
+1670227218.6892383
+1670227218.689249
+1670227231.0595932
+1670227243.8094108
+1670227256.8264375
+1670227269.4159598
+1670227282.1633053
+done
+
+2022-12-05 03:00:13,788 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659442470
+
+44
+137: 573622646
+1670227213.66227
+1670227218.982544
+sampling rate = 50000.0
+1670227220.1410522
+1670227233.893263
+1670227247.0885568
+1670227260.1334002
+1670227273.3035328
+1670227286.390346
+1670227299.1287308
+done
+
+2022-12-05 03:00:13,825 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446127
+
+20
+139: 574038330
+1670227213.4383678
+1670227217.2637172
+sampling rate = 50000.0
+1670227218.5202668
+1670227232.4380345
+1670227245.973013
+1670227259.6171775
+1670227273.275133
+1670227286.8373456
+1670227300.3944778
+done
+
+2022-12-05 03:00:13,602 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/651054770
+
+16
+144: 574992320
+1670227213.6637423
+1670227218.8006914
+sampling rate = 50000.0
+1670227220.0950944
+1670227236.8237195
+1670227252.5600011
+1670227268.281638
+1670227282.4877412
+1670227295.5862892
+1670227309.1349094
+done
+
+2022-12-05 03:00:13,827 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447248
+
+8
+146: 575642695
+1670227213.5599997
+1670227217.9007578
+sampling rate = 50000.0
+1670227219.1326287
+1670227233.3177273
+1670227247.6067905
+1670227261.5095143
+1670227275.4877827
+1670227289.3167224
+1670227303.0738404
+done
+
+2022-12-05 03:00:13,723 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593520
+
+4
+147: 575774870
+1670227242.1164281
+1670227246.2050612
+sampling rate = 50000.0
+1670227247.4597297
+1670227261.263949
+1670227274.3879642
+1670227287.5162058
+1670227300.595209
+1670227313.7146993
+1670227326.6596437
+done
+
+2022-12-05 03:00:42,280 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592970064
+
+40
+148: 577218602
+1670227242.3238735
+1670227246.854343
+sampling rate = 50000.0
+1670227247.6765144
+1670227261.4723976
+1670227274.7991717
+1670227288.0583265
+1670227301.3368
+1670227314.7795594
+1670227328.015866
+done
+
+2022-12-05 03:00:42,486 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592970591
+
+56
+149: 577369606
+1670227242.379442
+1670227246.8429835
+sampling rate = 50000.0
+1670227248.0960054
+1670227261.5092878
+1670227274.5817254
+1670227287.7169795
+1670227301.0058866
+1670227314.586683
+1670227327.5247543
+done
+
+2022-12-05 03:00:42,541 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592971448
+
+28
+150: 578485753
+1670227272.5231793
+1670227277.0462103
+sampling rate = 50000.0
+1670227278.266959
+1670227292.034068
+1670227305.5533664
+1670227318.9366813
+1670227332.4526107
+1670227345.9615684
+1670227359.3423998
+done
+
+2022-12-05 03:01:12,685 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/646416541
+
+48
+151: 578774163
+1670227272.542798
+1670227277.3151054
+sampling rate = 50000.0
+1670227278.9243097
+1670227295.1047409
+1670227311.0015144
+1670227326.5006964
+1670227342.776743
+1670227358.4096239
+1670227373.8655043
+done
+
+2022-12-05 03:01:12,705 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/592970865
+
+52
+152: 579626068
+1670227302.2127156
+1670227306.613475
+sampling rate = 50000.0
+1670227307.8543885
+1670227321.523603
+1670227334.945635
+1670227348.4816124
+1670227361.618693
+1670227374.6634202
+1670227387.6978831
+done
+
+2022-12-05 03:01:42,373 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593474
+
+12
+153: 579662957
+1670227302.6618962
+1670227304.9870303
+sampling rate = 50000.0
+1670227306.5361814
+1670227320.1270206
+1670227333.5366242
+1670227346.937352
+1670227360.3821943
+1670227373.7940593
+1670227386.96617
+done
+
+2022-12-05 03:01:42,822 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593494
+
+0
+156: 580161872
+1670227302.946096
+1670227307.1142144
+sampling rate = 50000.0
+1670227307.584334
+1670227307.5843441
+1670227320.2188964
+1670227332.9061325
+1670227345.6994846
+1670227358.36849
+1670227371.1724913
+done
+
+2022-12-05 03:01:43,159 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593487
+
+24
+157: 580162374
+1670227302.9627748
+1670227306.7648377
+sampling rate = 50000.0
+1670227307.2458746
+1670227307.245896
+1670227319.9220924
+1670227333.3811758
+1670227346.4643931
+1670227359.203022
+1670227371.5653446
+done
+
+2022-12-05 03:01:43,126 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593515
+
+32
+158: 582613001
+1670227302.9284165
+1670227306.9802523
+sampling rate = 50000.0
+1670227308.4786568
+1670227321.805463
+1670227334.994375
+1670227348.150917
+1670227361.501553
+1670227374.6476898
+1670227387.6898108
+done
+
+2022-12-05 03:01:43,090 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593530
+
+60
+154: 580014328
+1670227302.4758499
+1670227307.6158643
+sampling rate = 50000.0
+1670227308.8347926
+1670227322.500619
+1670227336.1618874
+1670227349.6665423
+1670227362.817798
+1670227376.2564368
+1670227389.2830374
+done
+
+2022-12-05 03:01:42,637 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446872
+
+36
+155: 580145037
+1670227302.9449062
+1670227308.508673
+sampling rate = 50000.0
+1670227310.0251303
+1670227323.5945332
+1670227337.135877
+1670227350.635417
+1670227364.165428
+1670227377.5642664
+1670227391.0032132
+done
+
+2022-12-05 03:01:43,105 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659450728
+
+20
+160: 582917630
+1670227333.2794673
+1670227336.9709847
+sampling rate = 50000.0
+1670227337.7765195
+1670227351.7586098
+1670227365.1343539
+1670227378.4802315
+1670227392.0421543
+1670227405.628202
+1670227418.801557
+done
+
+2022-12-05 03:02:13,440 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593500
+
+16
+161: 583104750
+1670227333.1687486
+1670227336.3681192
+sampling rate = 50000.0
+1670227336.7941208
+1670227336.7941365
+1670227350.3238876
+1670227363.643687
+1670227376.7371316
+1670227389.9117227
+1670227404.3468542
+done
+
+2022-12-05 03:02:13,329 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441231
+
+40
+164: 583146274
+1670227333.2339761
+1670227336.2783723
+sampling rate = 50000.0
+1670227337.4951093
+1670227351.2197337
+1670227364.6690137
+1670227378.0897567
+1670227391.5032043
+1670227404.8415651
+1670227418.1070204
+done
+
+2022-12-05 03:02:13,397 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593469
+
+56
+165: 583434059
+1670227333.29139
+1670227337.489415
+sampling rate = 50000.0
+1670227338.4137306
+1670227338.4137425
+1670227351.109742
+1670227363.7767313
+1670227376.2457306
+1670227388.6162746
+1670227401.8853784
+done
+
+2022-12-05 03:02:13,450 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441472
+
+44
+159: 582644266
+1670227333.2927184
+1670227337.9792888
+sampling rate = 50000.0
+1670227339.1238823
+1670227352.980217
+1670227366.4638724
+1670227379.8470113
+1670227393.3006232
+1670227406.8373857
+1670227420.141903
+done
+
+2022-12-05 03:02:13,452 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593525
+
+8
+162: 583138230
+1670227333.28097
+1670227338.5400658
+sampling rate = 50000.0
+1670227340.0532792
+1670227354.205471
+1670227367.7427795
+1670227381.1468315
+1670227394.744216
+1670227408.2190182
+1670227421.9086483
+done
+
+2022-12-05 03:02:13,443 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659440877
+
+4
+163: 583138568
+1670227332.7791345
+1670227335.8449588
+sampling rate = 50000.0
+1670227337.4274225
+1670227351.9085593
+1670227365.7557294
+1670227379.5152664
+1670227393.3576722
+1670227407.140041
+1670227421.0451934
+done
+
+2022-12-05 03:02:12,941 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593535
+
+28
+166: 584231995
+1670227393.4588978
+1670227398.2127697
+sampling rate = 50000.0
+1670227399.0627754
+1670227399.0627882
+1670227412.0898867
+1670227425.333671
+1670227438.749704
+1670227451.7312841
+1670227464.8244147
+done
+
+2022-12-05 03:03:13,620 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446948
+
+48
+167: 584872371
+1670227393.5004106
+1670227397.606021
+sampling rate = 50000.0
+1670227398.481305
+1670227412.0265605
+1670227425.9086845
+1670227439.1546125
+1670227452.3244932
+1670227465.5708995
+1670227478.423834
+done
+
+2022-12-05 03:03:13,661 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593482
+
+12
+169: 585830272
+1670227393.4022503
+1670227397.6647396
+sampling rate = 50000.0
+1670227398.8686838
+1670227398.868695
+1670227412.0825703
+1670227425.338686
+1670227438.4524772
+1670227451.8352163
+1670227465.5111227
+done
+
+2022-12-05 03:03:13,563 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659450606
+
+24
+171: 585841870
+1670227393.4642925
+1670227400.292903
+sampling rate = 50000.0
+1670227403.439861
+1670227403.4398785
+1670227416.5410054
+1670227430.6606212
+1670227444.0807185
+1670227457.6392705
+1670227470.943664
+done
+
+2022-12-05 03:03:13,624 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659450807
+
+32
+172: 585925172
+1670227393.4873824
+1670227395.48746
+sampling rate = 50000.0
+1670227396.652055
+1670227396.652066
+1670227410.2640681
+1670227423.5127883
+1670227436.6678958
+1670227449.8401415
+1670227463.2530718
+done
+
+2022-12-05 03:03:13,648 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659440921
+
+52
+168: 585805211
+1670227393.4990108
+1670227399.6450174
+sampling rate = 50000.0
+1670227400.9602551
+1670227414.8947787
+1670227429.0094068
+1670227442.695649
+1670227456.6140647
+1670227470.2537317
+1670227484.0400476
+done
+
+2022-12-05 03:03:13,658 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659450741
+
+0
+170: 585832440
+1670227393.2232265
+1670227400.090821
+sampling rate = 50000.0
+1670227401.6496108
+1670227415.353996
+1670227428.5583556
+1670227441.5709128
+1670227454.756793
+1670227468.1380706
+1670227481.3655841
+done
+
+2022-12-05 03:03:13,414 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593550
+
+20
+175: 585947309
+1670227423.0828545
+1670227426.440479
+sampling rate = 50000.0
+1670227428.1030393
+1670227441.763936
+1670227455.0941455
+1670227468.2341678
+1670227481.4083288
+1670227494.6933444
+1670227507.7097044
+done
+
+2022-12-05 03:03:43,242 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593540
+
+12
+184: 586379590
+1670227483.0373566
+1670227486.724214
+no sweeps found for neuron 586379590 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:04:43,197 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659442387
+
+60
+173: 585944237
+1670227423.020315
+1670227428.0644274
+sampling rate = 50000.0
+1670227429.619722
+1670227443.7667482
+1670227457.5419748
+1670227471.0200522
+1670227484.719396
+1670227498.2333148
+1670227511.733219
+done
+
+2022-12-05 03:03:43,180 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593505
+
+36
+174: 585946742
+1670227422.8973005
+1670227427.7446487
+sampling rate = 50000.0
+1670227429.2311337
+1670227442.9870143
+1670227456.9069674
+1670227470.3813536
+1670227483.8395407
+1670227497.1779873
+1670227510.4825404
+done
+
+2022-12-05 03:03:43,060 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659440946
+
+16
+176: 585951863
+1670227423.2084272
+1670227427.0966089
+sampling rate = 50000.0
+1670227428.4046094
+1670227444.764313
+1670227460.6623523
+1670227476.1976755
+1670227490.8308399
+1670227504.101636
+1670227519.0558174
+done
+
+2022-12-05 03:03:43,370 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659450601
+
+40
+177: 585952606
+1670227423.0736077
+1670227429.7500787
+sampling rate = 50000.0
+1670227431.2481267
+1670227445.1267972
+1670227458.9342182
+1670227472.4648707
+1670227485.9160285
+1670227499.311226
+1670227512.9167264
+done
+
+2022-12-05 03:03:43,233 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593556
+
+44
+179: 586072188
+1670227452.7904809
+1670227457.0139415
+sampling rate = 50000.0
+1670227458.5724196
+1670227472.1820886
+1670227485.7764966
+1670227498.9316695
+1670227512.324629
+1670227525.5412846
+1670227538.7216775
+done
+
+2022-12-05 03:04:12,954 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441000
+
+8
+180: 586072464
+1670227452.572869
+1670227456.218089
+sampling rate = 50000.0
+1670227457.0170934
+1670227470.4590652
+1670227483.4277954
+1670227496.3200839
+1670227509.2239869
+1670227522.1432016
+1670227534.961369
+done
+
+2022-12-05 03:04:12,743 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659440898
+
+4
+181: 586072783
+1670227452.8521187
+1670227457.4624355
+sampling rate = 50000.0
+1670227459.024766
+1670227472.6551492
+1670227485.6310444
+1670227498.593464
+1670227511.651082
+1670227524.532654
+1670227537.4734948
+done
+
+2022-12-05 03:04:13,012 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441041
+
+12
+190: 591268268
+1670227512.9396262
+1670227516.8899503
+no sweeps found for neuron 591268268 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:05:13,483 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447173
+
+28
+182: 586073683
+1670227482.8513901
+1670227486.9264793
+sampling rate = 50000.0
+1670227487.3968124
+1670227487.3968256
+1670227500.380339
+1670227513.5953455
+1670227526.5752497
+1670227539.3563006
+1670227553.078468
+done
+
+2022-12-05 03:04:43,013 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659450664
+
+32
+186: 586566174
+1670227482.9247131
+1670227486.6871138
+sampling rate = 50000.0
+1670227487.487824
+1670227500.8665378
+1670227514.1310618
+1670227527.1323888
+1670227540.0290816
+1670227553.2011504
+1670227566.3762252
+done
+
+2022-12-05 03:04:43,086 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446091
+
+48
+183: 586073850
+1670227483.0792851
+1670227488.3577971
+sampling rate = 50000.0
+1670227490.007722
+1670227503.861039
+1670227517.728702
+1670227531.2094872
+1670227545.3005924
+1670227559.1496975
+1670227573.009033
+done
+
+2022-12-05 03:04:43,240 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659450787
+
+24
+185: 586559181
+1670227483.0814872
+1670227487.9667299
+sampling rate = 50000.0
+1670227489.221126
+1670227503.0292938
+1670227516.6189222
+1670227529.9374032
+1670227543.483735
+1670227557.0985286
+1670227570.4570951
+done
+
+2022-12-05 03:04:43,242 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593367
+
+52
+187: 587045566
+1670227513.1425252
+1670227515.0782688
+sampling rate = 50000.0
+1670227515.891819
+1670227515.8918324
+1670227528.757032
+1670227541.8511758
+1670227555.4533052
+1670227568.283041
+1670227581.3355231
+done
+
+2022-12-05 03:05:13,303 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593464
+
+20
+189: 591265629
+1670227513.145064
+1670227516.8130546
+sampling rate = 50000.0
+1670227518.3305387
+1670227531.7670236
+1670227545.2226276
+1670227558.7008011
+1670227571.9777439
+1670227585.1252766
+1670227598.024386
+done
+
+2022-12-05 03:05:13,306 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/646446556
+
+28
+199: 623185845
+1670227572.9545772
+1670227575.6649373
+no sweeps found for neuron 623185845 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:06:13,116 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/652798219
+
+0
+188: 590558808
+1670227512.9447088
+1670227517.7181807
+sampling rate = 50000.0
+1670227518.5720525
+1670227532.8180285
+1670227546.5864105
+1670227560.5539308
+1670227574.5295146
+1670227588.3593965
+1670227602.202784
+done
+
+2022-12-05 03:05:13,106 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/646542092
+
+60
+191: 591278744
+1670227543.3347137
+1670227546.5451171
+sampling rate = 50000.0
+1670227548.5494883
+1670227548.5495114
+1670227561.1581671
+1670227574.0319815
+1670227586.2224061
+1670227598.574917
+1670227611.949685
+done
+
+2022-12-05 03:05:43,503 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593415
+
+36
+192: 592952680
+1670227543.6830845
+1670227550.1044788
+sampling rate = 50000.0
+1670227552.064237
+1670227552.0642478
+1670227565.4895613
+1670227578.8699229
+1670227592.2248812
+1670227605.5141356
+1670227618.7627187
+done
+
+2022-12-05 03:05:43,843 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446218
+
+40
+194: 593321019
+1670227543.6940207
+1670227547.9429984
+sampling rate = 50000.0
+1670227548.7569253
+1670227548.7569366
+1670227561.861211
+1670227574.931751
+1670227588.0329566
+1670227601.0301182
+1670227614.0069757
+done
+
+2022-12-05 03:05:43,856 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/646416117
+
+20
+204: 314831019
+1670227603.1278408
+1670227606.6984017
+no sweeps found for neuron 314831019 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:06:43,290 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200590
+
+16
+193: 593312584
+1670227543.616603
+1670227548.0345714
+sampling rate = 50000.0
+1670227550.1249046
+1670227566.8228123
+1670227583.1373553
+1670227598.9842446
+1670227615.9829476
+1670227632.1484191
+1670227648.553435
+done
+
+2022-12-05 03:05:43,783 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659442108
+
+44
+195: 594091004
+1670227543.5328856
+1670227548.1133397
+sampling rate = 50000.0
+1670227549.7388773
+1670227563.8272066
+1670227577.5231323
+1670227591.3199859
+1670227605.0881596
+1670227618.62154
+1670227632.12413
+done
+
+2022-12-05 03:05:43,699 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/646542050
+
+8
+196: 609435731
+1670227543.703851
+1670227549.9016757
+sampling rate = 50000.0
+1670227551.655215
+1670227565.3304226
+1670227578.433341
+1670227591.5011947
+1670227604.5066156
+1670227617.373762
+1670227630.2205076
+done
+
+2022-12-05 03:05:43,864 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/646445483
+
+4
+197: 614767057
+1670227543.6855767
+1670227549.9952228
+sampling rate = 50000.0
+1670227551.7033176
+1670227565.781898
+1670227579.2973702
+1670227592.7521093
+1670227606.2242136
+1670227619.5419197
+1670227633.24508
+done
+
+2022-12-05 03:05:43,850 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/646445463
+
+12
+198: 614777438
+1670227543.5962448
+1670227549.415234
+sampling rate = 50000.0
+1670227551.2291145
+1670227565.3155968
+1670227578.8594775
+1670227592.3292694
+1670227605.8730018
+1670227619.1871052
+1670227632.4193718
+done
+
+2022-12-05 03:05:43,756 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/646445395
+
+40
+209: 320668879
+1670227633.334815
+1670227639.3338294
+no sweeps found for neuron 320668879 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:07:13,502 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201841
+
+44
+212: 323865917
+1670227663.3900135
+1670227667.2333465
+no sweeps found for neuron 323865917 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:07:43,553 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200673
+
+40
+216: 325941643
+1670227663.4140816
+1670227667.0461495
+no sweeps found for neuron 325941643 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:07:43,587 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202313
+
+44
+217: 329550137
+1670227693.214398
+1670227699.2443492
+no sweeps found for neuron 329550137 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:08:13,375 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198071
+
+44
+219: 348592897
+1670227723.2739425
+1670227727.1581461
+no sweeps found for neuron 348592897 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:08:43,474 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201784
+
+56
+178: 586071425
+1670227423.0776842
+1670227432.2856212
+sampling rate = 200000.0
+1670227444.8199797
+1670227499.5600998
+1670227553.7589853
+1670227607.6898491
+1670227661.9189262
+1670227716.057649
+1670227770.0058663
+done
+
+2022-12-05 03:03:43,240 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593567
+
+32
+200: 313862022
+1670227572.8960059
+1670227575.5700698
+sampling rate = 200000.0
+1670227578.6407688
+1670227578.6407814
+1670227621.5484247
+1670227664.6119642
+1670227707.9949772
+1670227751.798226
+1670227795.211065
+done
+
+2022-12-05 03:06:13,057 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201627
+
+24
+202: 314804042
+1670227602.7832544
+1670227606.4806757
+sampling rate = 200000.0
+1670227608.1215825
+1670227608.1216028
+1670227652.7676404
+1670227697.504622
+1670227742.2072747
+1670227787.4854243
+1670227832.041854
+done
+
+2022-12-05 03:06:42,964 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201620
+
+48
+201: 314642645
+1670227603.1873116
+1670227611.232438
+sampling rate = 200000.0
+1670227616.4207091
+1670227662.1473808
+1670227707.6107104
+1670227752.2970896
+1670227797.2255068
+1670227842.2269108
+1670227887.008665
+done
+
+2022-12-05 03:06:43,350 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201802
+
+52
+203: 314822529
+1670227603.164539
+1670227611.6439464
+sampling rate = 200000.0
+1670227616.9161942
+1670227662.6369872
+1670227707.3244598
+1670227751.5665035
+1670227796.194143
+1670227840.469233
+1670227884.741818
+done
+
+2022-12-05 03:06:43,326 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202285
+
+28
+205: 314900022
+1670227603.2394865
+1670227607.9940114
+sampling rate = 200000.0
+1670227613.5664086
+1670227657.329193
+1670227701.2114422
+1670227744.73573
+1670227788.2013164
+1670227831.6533096
+1670227875.4795177
+done
+
+2022-12-05 03:06:43,413 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200781
+
+20
+210: 321906005
+1670227633.461918
+1670227639.6519787
+sampling rate = 200000.0
+1670227642.8817892
+1670227642.8818064
+1670227692.2760653
+1670227741.8301811
+1670227791.118759
+1670227840.5618048
+1670227889.6882417
+done
+
+2022-12-05 03:07:13,623 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199154
+
+0
+206: 318733871
+1670227633.3928323
+1670227641.4700253
+sampling rate = 200000.0
+1670227646.2313428
+1670227689.0699513
+1670227733.120937
+1670227776.5299125
+1670227820.867282
+1670227864.3930047
+1670227907.499799
+done
+
+2022-12-05 03:07:13,552 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198860
+
+60
+207: 318808427
+1670227633.3184319
+1670227639.8576932
+sampling rate = 200000.0
+1670227648.358062
+1670227693.1386395
+1670227736.95153
+1670227780.3811035
+1670227824.5101142
+1670227868.5115912
+1670227912.5969334
+done
+
+2022-12-05 03:07:13,481 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199000
+
+36
+208: 320207387
+1670227633.3952036
+1670227644.0881073
+sampling rate = 200000.0
+1670227648.7803106
+1670227693.088476
+1670227737.2348757
+1670227781.6950161
+1670227825.8086634
+1670227870.0063295
+1670227914.090345
+done
+
+2022-12-05 03:07:13,558 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201195
+
+12
+215: 324521027
+1670227663.4567585
+1670227668.9341493
+sampling rate = 200000.0
+1670227672.5240524
+1670227672.5240648
+1670227721.6292148
+1670227770.4703429
+1670227819.7089524
+1670227868.9345117
+1670227918.278458
+done
+
+2022-12-05 03:07:43,617 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201887
+
+0
+228: 397351623
+1670227933.500253
+1670227938.4295478
+no sweeps found for neuron 397351623 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:12:13,664 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198502
+
+8
+213: 324025297
+1670227662.9038477
+1670227672.110117
+sampling rate = 200000.0
+1670227675.7029927
+1670227723.9220383
+1670227771.553828
+1670227819.3570278
+1670227866.6937099
+1670227914.3007643
+1670227961.337843
+done
+
+2022-12-05 03:07:43,089 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198522
+
+4
+214: 324025371
+1670227663.4350307
+1670227669.8774233
+sampling rate = 200000.0
+1670227675.2255328
+1670227723.6239045
+1670227771.6560378
+1670227819.8355923
+1670227868.1325042
+1670227916.2840612
+1670227964.8353891
+done
+
+2022-12-05 03:07:43,596 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198214
+
+16
+211: 323452245
+1670227663.4573753
+1670227672.0232217
+sampling rate = 200000.0
+1670227681.4175863
+1670227738.6448681
+1670227794.5806668
+1670227850.6943982
+1670227906.795371
+1670227963.3148088
+1670228019.4162192
+done
+
+2022-12-05 03:07:43,621 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/487096732
+
+40
+218: 329550277
+1670227693.2067237
+1670227702.7898579
+sampling rate = 200000.0
+1670227709.5110826
+1670227757.2922094
+1670227805.6975951
+1670227853.0245848
+1670227900.662453
+1670227948.1426592
+1670227995.5379462
+done
+
+2022-12-05 03:08:13,375 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198344
+
+44
+220: 349621141
+1670227753.151911
+1670227758.4059234
+sampling rate = 200000.0
+1670227760.3134305
+1670227760.3134413
+1670227813.7141623
+1670227867.6285894
+1670227920.977012
+1670227974.3734367
+1670228027.6288168
+done
+
+2022-12-05 03:09:13,313 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201718
+
+44
+237: 469798159
+1670228053.3805165
+1670228059.9416032
+no sweeps found for neuron 469798159 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:14:13,565 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200911
+
+56
+221: 354190013
+1670227783.2439773
+1670227791.2846453
+sampling rate = 200000.0
+1670227798.279268
+1670227855.473096
+1670227911.8448353
+1670227968.7821236
+1670228025.3536668
+1670228081.9734018
+1670228138.688228
+done
+
+2022-12-05 03:09:43,409 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201729
+
+32
+222: 354833767
+1670227812.9205468
+1670227819.5380425
+sampling rate = 200000.0
+1670227825.2658982
+1670227878.4941735
+1670227931.8407845
+1670227985.1890512
+1670228038.0593028
+1670228090.8232007
+1670228143.8273108
+done
+
+2022-12-05 03:10:13,083 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198705
+
+24
+223: 370351753
+1670227843.1415772
+1670227851.7833726
+sampling rate = 200000.0
+1670227865.0348756
+1670227921.7360191
+1670227977.951943
+1670228034.4948115
+1670228090.9913466
+1670228147.432219
+1670228203.6673608
+done
+
+2022-12-05 03:10:43,303 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198968
+
+48
+224: 382982932
+1670227903.6698508
+1670227913.1722093
+sampling rate = 200000.0
+1670227925.2404075
+1670227980.7126865
+1670228036.1341047
+1670228091.0918546
+1670228146.1673086
+1670228201.4684157
+1670228255.4202082
+done
+
+2022-12-05 03:11:43,841 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199232
+
+52
+225: 386049446
+1670227903.711788
+1670227910.0911772
+sampling rate = 200000.0
+1670227918.8366368
+1670227973.3726058
+1670228028.1763165
+1670228082.0740995
+1670228136.4049022
+1670228191.2227235
+1670228244.617248
+done
+
+2022-12-05 03:11:43,878 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198851
+
+28
+226: 386970660
+1670227903.7039995
+1670227909.4487534
+sampling rate = 200000.0
+1670227918.278606
+1670227972.5446742
+1670228026.493999
+1670228080.0989377
+1670228133.7867353
+1670228187.551288
+1670228240.6278024
+done
+
+2022-12-05 03:11:43,866 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496895064
+
+20
+227: 395830185
+1670227903.7083929
+1670227911.1602337
+sampling rate = 200000.0
+1670227922.7238414
+1670227977.5557096
+1670228032.6231704
+1670228087.6045206
+1670228142.4192305
+1670228196.8515399
+1670228251.1178687
+done
+
+2022-12-05 03:11:43,876 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201337
+
+12
+231: 466632464
+1670227933.3092115
+1670227941.2603178
+sampling rate = 200000.0
+1670227944.8166766
+1670227993.188793
+1670228041.0622785
+1670228089.427326
+1670228137.8190062
+1670228186.0444124
+1670228234.425819
+done
+
+2022-12-05 03:12:13,473 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202157
+
+60
+229: 397353539
+1670227933.264872
+1670227940.6243036
+sampling rate = 200000.0
+1670227947.8457968
+1670228002.1094573
+1670228056.703193
+1670228111.301686
+1670228165.6534727
+1670228220.1478772
+1670228275.2589571
+done
+
+2022-12-05 03:12:13,429 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198915
+
+36
+230: 422738880
+1670227933.4409487
+1670227944.4370015
+sampling rate = 200000.0
+1670227950.157612
+1670228003.2673135
+1670228056.1705363
+1670228109.2692223
+1670228162.4718037
+1670228215.7554276
+1670228268.5875573
+done
+
+2022-12-05 03:12:13,605 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198876
+
+4
+234: 468193142
+1670227993.38718
+1670228000.0616202
+sampling rate = 200000.0
+1670228001.9869518
+1670228001.986964
+1670228054.132978
+1670228106.6075234
+1670228159.2558794
+1670228211.9965613
+1670228264.4227645
+done
+
+2022-12-05 03:13:13,551 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491317257
+
+0
+232: 467703703
+1670227963.4622002
+1670227970.4229627
+sampling rate = 200000.0
+1670227976.0964794
+1670228029.6037796
+1670228082.8431203
+1670228136.1462395
+1670228189.8247921
+1670228242.997941
+1670228295.3126352
+done
+
+2022-12-05 03:12:43,622 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202066
+
+36
+248: 473601979
+1670228293.952201
+1670228296.1959743
+no sweeps found for neuron 473601979 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:18:14,115 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496387926
+
+4
+249: 473611755
+1670228293.9548945
+1670228298.7921908
+no sweeps found for neuron 473611755 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:18:14,116 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496389059
+
+8
+233: 468120757
+1670227993.190355
+1670228003.9162111
+sampling rate = 200000.0
+1670228007.759237
+1670228061.6451604
+1670228115.3611887
+1670228168.9439304
+1670228222.8386395
+1670228276.3337529
+1670228329.4766808
+done
+
+2022-12-05 03:13:13,375 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201174
+
+0
+250: 475459689
+1670228323.7794535
+1670228326.5534286
+no sweeps found for neuron 475459689 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:18:43,940 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/489256949
+
+16
+235: 469704261
+1670228023.2692378
+1670228037.5869875
+sampling rate = 200000.0
+1670228051.0814776
+1670228105.9897752
+1670228160.5758846
+1670228214.963704
+1670228269.298834
+1670228324.5380487
+1670228379.5667186
+done
+
+2022-12-05 03:13:43,430 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491318088
+
+40
+236: 469793303
+1670228023.2860074
+1670228029.0237775
+sampling rate = 200000.0
+1670228036.5225155
+1670228089.2064114
+1670228142.7969131
+1670228195.4141967
+1670228248.4916756
+1670228300.9897094
+1670228353.4078422
+done
+
+2022-12-05 03:13:43,447 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200844
+
+8
+253: 476049169
+1670228353.8246431
+1670228361.7508423
+no sweeps found for neuron 476049169 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:19:14,000 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198466
+
+0
+254: 476054887
+1670228354.119162
+1670228362.6575742
+no sweeps found for neuron 476054887 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:19:14,285 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496573455
+
+44
+238: 471129934
+1670228083.2505531
+1670228094.92432
+sampling rate = 200000.0
+1670228098.6687357
+1670228152.9674077
+1670228205.9469445
+1670228260.4855003
+1670228314.380377
+1670228368.1397655
+1670228422.1615732
+done
+
+2022-12-05 03:14:43,416 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202812
+
+32
+240: 471143169
+1670228173.6685338
+1670228182.6315508
+sampling rate = 200000.0
+1670228184.5990183
+1670228184.5990303
+1670228237.0908947
+1670228289.0676534
+1670228341.1534023
+1670228394.2539167
+1670228446.400556
+done
+
+2022-12-05 03:16:13,830 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202669
+
+56
+239: 471141261
+1670228143.5996644
+1670228154.2106004
+sampling rate = 200000.0
+1670228167.5279422
+1670228223.1565475
+1670228278.100422
+1670228333.3906956
+1670228387.641508
+1670228441.685692
+1670228495.8854373
+done
+
+2022-12-05 03:15:43,786 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202687
+
+24
+241: 471410185
+1670228233.6090486
+1670228243.1895766
+sampling rate = 200000.0
+1670228245.5650935
+1670228245.5651095
+1670228298.976246
+1670228352.7426815
+1670228406.3190901
+1670228459.5662603
+1670228513.3704963
+done
+
+2022-12-05 03:17:13,798 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202219
+
+48
+242: 471758398
+1670228264.0515034
+1670228274.3517938
+sampling rate = 200000.0
+1670228281.080251
+1670228281.080271
+1670228345.362453
+1670228399.2006698
+1670228452.31085
+1670228505.4433355
+1670228558.2896266
+done
+
+2022-12-05 03:17:44,214 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202839
+
+28
+244: 471786879
+1670228264.053152
+1670228271.6099424
+sampling rate = 200000.0
+1670228284.0498614
+1670228284.0498831
+1670228339.9906704
+1670228395.7259448
+1670228450.2333686
+1670228504.738231
+1670228558.8663025
+done
+
+2022-12-05 03:17:44,216 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202180
+
+52
+243: 471767045
+1670228263.9818087
+1670228274.2147815
+sampling rate = 200000.0
+1670228290.1202443
+1670228290.1202624
+1670228344.9908676
+1670228400.046291
+1670228454.4931989
+1670228509.1080632
+1670228562.7056613
+done
+
+2022-12-05 03:17:44,145 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202904
+
+12
+246: 471800189
+1670228263.8061073
+1670228274.5723372
+sampling rate = 200000.0
+1670228280.4905763
+1670228333.2047892
+1670228385.7392137
+1670228439.0834346
+1670228492.3344588
+1670228545.2230124
+1670228598.139036
+done
+
+2022-12-05 03:17:43,972 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202561
+
+36
+251: 475744706
+1670228323.7788868
+1670228330.4923997
+sampling rate = 200000.0
+1670228332.4591525
+1670228332.4591644
+1670228384.477703
+1670228437.4434946
+1670228490.1504855
+1670228542.8907712
+1670228596.2543035
+done
+
+2022-12-05 03:18:43,944 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496388696
+
+20
+245: 471789504
+1670228264.01666
+1670228270.714746
+sampling rate = 200000.0
+1670228279.4352584
+1670228338.35621
+1670228397.4651008
+1670228455.819733
+1670228514.307943
+1670228572.4339545
+1670228631.4980116
+done
+
+2022-12-05 03:17:44,179 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496895076
+
+60
+247: 473020156
+1670228293.935278
+1670228305.2065315
+sampling rate = 200000.0
+1670228318.4833288
+1670228372.8095767
+1670228426.7845268
+1670228480.281069
+1670228534.1157641
+1670228588.0892668
+1670228642.123479
+done
+
+2022-12-05 03:18:14,117 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496390158
+
+4
+252: 476048909
+1670228323.7348185
+1670228330.3545675
+sampling rate = 200000.0
+1670228334.1966853
+1670228386.185385
+1670228438.5896127
+1670228490.9887402
+1670228543.517189
+1670228595.7599628
+1670228649.5998218
+done
+
+2022-12-05 03:18:43,898 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198402
+
+40
+256: 476126528
+1670228384.0660608
+1670228389.759013
+sampling rate = 200000.0
+1670228393.6982298
+1670228393.6982481
+1670228446.8460736
+1670228499.5227132
+1670228552.5825648
+1670228605.9378881
+1670228659.2703319
+done
+
+2022-12-05 03:19:44,228 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201040
+
+0
+258: 476135066
+1670228384.0756514
+1670228390.08773
+sampling rate = 200000.0
+1670228395.842179
+1670228395.8421967
+1670228448.642979
+1670228501.7226481
+1670228555.1088164
+1670228608.1514118
+1670228661.137739
+done
+
+2022-12-05 03:19:44,238 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316017
+
+16
+255: 476086391
+1670228384.0643141
+1670228392.7999985
+sampling rate = 200000.0
+1670228396.543696
+1670228396.5437112
+1670228460.6114175
+1670228525.5514212
+1670228585.7959256
+1670228640.1412187
+1670228694.9958613
+done
+
+2022-12-05 03:19:44,231 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199677
+
+8
+257: 476131588
+1670228383.9660609
+1670228391.484173
+sampling rate = 200000.0
+1670228397.351668
+1670228452.2436552
+1670228506.6936865
+1670228561.8204572
+1670228616.7549734
+1670228671.6727455
+1670228727.3544126
+done
+
+2022-12-05 03:19:44,129 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201308
+
+44
+259: 476216637
+1670228443.9676316
+1670228448.8583245
+sampling rate = 200000.0
+1670228450.789952
+1670228450.7899663
+1670228504.2678573
+1670228558.8224666
+1670228612.8517249
+1670228666.6057394
+1670228720.5163474
+done
+
+2022-12-05 03:20:44,148 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200930
+
+8
+274: 478892782
+1670228744.231675
+1670228751.1390479
+no sweeps found for neuron 478892782 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:25:44,422 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496573418
+
+32
+260: 476218657
+1670228473.798103
+1670228482.8436959
+sampling rate = 200000.0
+1670228488.4024248
+1670228541.7656927
+1670228595.0335054
+1670228647.4268093
+1670228700.7647848
+1670228753.3373473
+1670228806.092577
+done
+
+2022-12-05 03:21:13,962 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201429
+
+56
+261: 476263004
+1670228503.8483274
+1670228512.2254298
+sampling rate = 200000.0
+1670228517.7398899
+1670228571.8546407
+1670228624.9931045
+1670228678.7238295
+1670228732.4454
+1670228785.855392
+1670228839.2686336
+done
+
+2022-12-05 03:21:44,011 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491201894
+
+24
+262: 476451456
+1670228533.985976
+1670228537.6562178
+sampling rate = 200000.0
+1670228544.9232543
+1670228599.653346
+1670228654.7745168
+1670228709.80413
+1670228764.6955163
+1670228819.6649065
+1670228876.0460026
+done
+
+2022-12-05 03:22:14,151 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496573427
+
+48
+263: 476455864
+1670228564.091195
+1670228569.352267
+sampling rate = 200000.0
+1670228577.2801867
+1670228577.2802079
+1670228642.1677704
+1670228706.89837
+1670228772.8212745
+1670228837.7628958
+1670228902.3307385
+done
+
+2022-12-05 03:22:44,270 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199278
+
+28
+264: 476457450
+1670228564.0903487
+1670228570.8865972
+sampling rate = 200000.0
+1670228583.3064175
+1670228637.810857
+1670228692.1180887
+1670228746.4693413
+1670228800.767191
+1670228854.7418022
+1670228908.5166924
+done
+
+2022-12-05 03:22:44,274 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199136
+
+12
+266: 476616076
+1670228623.9642522
+1670228627.825866
+sampling rate = 200000.0
+1670228629.7233717
+1670228629.7233884
+1670228684.1316774
+1670228738.3900793
+1670228793.038076
+1670228847.4418344
+1670228901.7204733
+done
+
+2022-12-05 03:23:44,131 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491315968
+
+52
+265: 476562817
+1670228594.056981
+1670228604.2454295
+sampling rate = 200000.0
+1670228620.442419
+1670228677.4879618
+1670228732.3960347
+1670228787.6351979
+1670228842.0961723
+1670228896.269448
+1670228951.4775121
+done
+
+2022-12-05 03:23:14,222 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198599
+
+36
+267: 476823462
+1670228624.0541399
+1670228632.5908048
+sampling rate = 200000.0
+1670228641.8185153
+1670228697.0015228
+1670228751.168666
+1670228805.8837843
+1670228860.7244594
+1670228915.5556839
+1670228970.2175257
+done
+
+2022-12-05 03:23:44,215 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496605240
+
+20
+268: 477127614
+1670228654.2278283
+1670228660.9259853
+sampling rate = 200000.0
+1670228671.4842012
+1670228726.7372465
+1670228781.721378
+1670228836.4037554
+1670228890.5716457
+1670228945.2168636
+1670229000.49411
+done
+
+2022-12-05 03:24:14,392 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496605204
+
+60
+269: 477135941
+1670228654.1596754
+1670228662.813805
+sampling rate = 200000.0
+1670228676.0396597
+1670228729.7784455
+1670228783.9629862
+1670228837.9529972
+1670228892.1058774
+1670228946.632356
+1670229000.3906546
+done
+
+2022-12-05 03:24:14,323 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496605265
+
+4
+270: 478497530
+1670228654.159499
+1670228664.655055
+sampling rate = 200000.0
+1670228672.1680658
+1670228725.728415
+1670228778.9833426
+1670228832.624945
+1670228886.050399
+1670228939.4386723
+1670228993.277952
+done
+
+2022-12-05 03:24:14,324 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496573520
+
+16
+273: 478888052
+1670228714.2038991
+1670228723.340996
+sampling rate = 200000.0
+1670228726.95052
+1670228726.9505339
+1670228779.6983228
+1670228832.7227147
+1670228885.2935584
+1670228939.7395062
+1670229002.318124
+done
+
+2022-12-05 03:25:14,367 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496573474
+
+40
+271: 478499902
+1670228684.044819
+1670228693.6819668
+sampling rate = 200000.0
+1670228701.135759
+1670228754.2424352
+1670228807.2864647
+1670228860.5833406
+1670228913.6810036
+1670228966.7695565
+1670229019.521548
+done
+
+2022-12-05 03:24:44,206 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198578
+
+0
+272: 478586295
+1670228684.257533
+1670228693.0003862
+sampling rate = 200000.0
+1670228698.7519124
+1670228751.722839
+1670228804.755911
+1670228858.1151645
+1670228911.3082755
+1670228964.758473
+1670229017.233835
+done
+
+2022-12-05 03:24:44,418 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198513
+
+60
+286: 480114344
+1670229014.4822595
+1670229016.9826248
+no sweeps found for neuron 480114344 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:30:14,647 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/488716595
+
+8
+276: 479013100
+1670228774.2311325
+1670228779.2314737
+sampling rate = 200000.0
+1670228781.1517744
+1670228781.1517909
+1670228834.8677719
+1670228888.857706
+1670228943.0084796
+1670228997.1104248
+1670229051.746809
+done
+
+2022-12-05 03:26:14,395 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/501271464
+
+44
+275: 479010903
+1670228744.236325
+1670228754.2570455
+sampling rate = 200000.0
+1670228761.9929473
+1670228819.6593878
+1670228876.7871757
+1670228935.29099
+1670228992.5344021
+1670229049.4009688
+1670229106.7366037
+done
+
+2022-12-05 03:25:44,421 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496573529
+
+32
+277: 479179020
+1670228834.3166468
+1670228843.6126986
+sampling rate = 200000.0
+1670228849.1001651
+1670228904.5227633
+1670228960.0060825
+1670229015.566287
+1670229072.196595
+1670229127.8342187
+1670229184.3009303
+done
+
+2022-12-05 03:27:14,510 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198560
+
+56
+278: 479225052
+1670228864.4035432
+1670228870.6010008
+sampling rate = 200000.0
+1670228879.7715542
+1670228934.6745188
+1670228987.8367248
+1670229040.9079888
+1670229094.5947037
+1670229147.7088027
+1670229200.569716
+done
+
+2022-12-05 03:27:44,569 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496606487
+
+32
+294: 483061182
+1670229194.5745826
+1670229198.1874812
+no sweeps found for neuron 483061182 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:33:14,738 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316302
+
+24
+279: 479225080
+1670228894.4211695
+1670228904.4201086
+sampling rate = 200000.0
+1670228913.31458
+1670228967.122625
+1670229021.142177
+1670229075.3500674
+1670229128.9304423
+1670229182.8954887
+1670229236.718786
+done
+
+2022-12-05 03:28:14,610 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496196368
+
+56
+295: 483068687
+1670229224.7835708
+1670229229.3188553
+no sweeps found for neuron 483068687 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:33:44,953 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316355
+
+32
+296: 483092310
+1670229224.7725122
+1670229232.161256
+no sweeps found for neuron 483092310 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:33:44,953 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496196601
+
+28
+281: 479721491
+1670228924.4212008
+1670228935.1549869
+sampling rate = 200000.0
+1670228948.6046915
+1670229002.3409219
+1670229057.6574206
+1670229111.5602355
+1670229165.9027097
+1670229219.7841015
+1670229273.8466384
+done
+
+2022-12-05 03:28:44,582 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491202867
+
+12
+282: 479728896
+1670228924.4691553
+1670228935.3080974
+sampling rate = 200000.0
+1670228942.9651594
+1670228996.8144343
+1670229049.7759132
+1670229103.0113547
+1670229156.9826903
+1670229210.2367215
+1670229263.7491314
+done
+
+2022-12-05 03:28:44,630 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496573494
+
+48
+280: 479704527
+1670228924.452972
+1670228931.6949973
+sampling rate = 200000.0
+1670228942.0496192
+1670228999.7882686
+1670229058.2176108
+1670229116.3236809
+1670229174.4186711
+1670229232.4216938
+1670229290.2505512
+done
+
+2022-12-05 03:28:44,616 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/487097051
+
+4
+287: 480116737
+1670229014.6953924
+1670229020.052729
+sampling rate = 200000.0
+1670229021.9810987
+1670229021.9811134
+1670229074.8514626
+1670229128.114423
+1670229181.8089893
+1670229235.136316
+1670229288.194378
+done
+
+2022-12-05 03:30:14,859 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/487096251
+
+52
+283: 479770916
+1670228984.6964183
+1670228996.4690547
+sampling rate = 200000.0
+1670229008.7670655
+1670229065.2707925
+1670229120.4864526
+1670229175.9264343
+1670229230.9018402
+1670229286.506153
+1670229341.5845325
+done
+
+2022-12-05 03:29:44,884 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496573504
+
+36
+284: 480003970
+1670228984.695049
+1670228993.1342
+sampling rate = 200000.0
+1670229000.6638591
+1670229057.910005
+1670229115.138168
+1670229172.158632
+1670229229.4344974
+1670229286.4488533
+1670229344.5393791
+done
+
+2022-12-05 03:29:44,886 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496573436
+
+20
+285: 480087928
+1670229014.62859
+1670229025.7551966
+sampling rate = 200000.0
+1670229038.7048068
+1670229092.7131207
+1670229146.8279934
+1670229200.2888057
+1670229254.0361643
+1670229307.4143736
+1670229360.6582084
+done
+
+2022-12-05 03:30:14,790 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491198827
+
+16
+288: 480122859
+1670229014.4794772
+1670229020.1358154
+sampling rate = 200000.0
+1670229029.1120632
+1670229092.7851765
+1670229155.6478112
+1670229218.1516745
+1670229272.6844475
+1670229335.367641
+1670229397.828549
+done
+
+2022-12-05 03:30:14,641 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496605989
+
+40
+289: 480124551
+1670229044.7830627
+1670229051.5318248
+sampling rate = 200000.0
+1670229057.2700267
+1670229112.119272
+1670229166.024783
+1670229219.8355668
+1670229273.7134533
+1670229327.6513045
+1670229381.2667778
+done
+
+2022-12-05 03:30:44,968 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491112357
+
+0
+290: 480169178
+1670229044.7881913
+1670229055.7029421
+sampling rate = 200000.0
+1670229063.2172835
+1670229116.9216897
+1670229170.3592424
+1670229224.2013705
+1670229278.9300866
+1670229332.6394167
+1670229386.1617012
+done
+
+2022-12-05 03:30:44,966 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/487096601
+
+60
+291: 480351780
+1670229044.4207737
+1670229054.8859553
+sampling rate = 200000.0
+1670229064.8805919
+1670229118.3808448
+1670229172.1525006
+1670229225.3004742
+1670229278.8804815
+1670229332.9345305
+1670229386.618583
+done
+
+2022-12-05 03:30:44,587 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199145
+
+8
+292: 480353286
+1670229074.6124663
+1670229084.1674538
+sampling rate = 200000.0
+1670229091.6144354
+1670229146.6277494
+1670229201.407703
+1670229256.217781
+1670229311.3090346
+1670229366.7376463
+1670229422.9150286
+done
+
+2022-12-05 03:31:14,774 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/487096672
+
+60
+310: 485909730
+1670229405.4752293
+1670229408.217509
+no sweeps found for neuron 485909730 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:36:45,639 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316386
+
+44
+293: 483020137
+1670229134.757902
+1670229143.8867576
+sampling rate = 200000.0
+1670229151.1749716
+1670229204.5888069
+1670229257.8044653
+1670229311.6197073
+1670229365.5946155
+1670229419.2709846
+1670229472.9294047
+done
+
+2022-12-05 03:32:14,937 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491317175
+
+56
+298: 484564503
+1670229254.9160078
+1670229263.1635997
+sampling rate = 200000.0
+1670229266.9064171
+1670229266.906434
+1670229320.2686043
+1670229372.9474819
+1670229426.574936
+1670229479.538345
+1670229532.555833
+done
+
+2022-12-05 03:34:15,080 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491317441
+
+28
+300: 485161419
+1670229284.8418238
+1670229292.543701
+sampling rate = 200000.0
+1670229301.8848767
+1670229301.8848917
+1670229355.7675538
+1670229410.937229
+1670229465.154986
+1670229518.9373803
+1670229572.7367811
+done
+
+2022-12-05 03:34:45,089 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316571
+
+24
+297: 483101699
+1670229254.9254224
+1670229266.1606874
+sampling rate = 200000.0
+1670229275.4881086
+1670229330.0504668
+1670229383.761002
+1670229437.785465
+1670229491.6156833
+1670229545.5927186
+1670229600.014019
+done
+
+2022-12-05 03:34:15,094 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496605995
+
+32
+299: 484679812
+1670229254.886275
+1670229264.6013966
+sampling rate = 200000.0
+1670229268.5025864
+1670229321.6572504
+1670229374.656249
+1670229428.1289265
+1670229481.6782029
+1670229535.1174579
+1670229588.503951
+done
+
+2022-12-05 03:34:15,054 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316939
+
+12
+301: 485468180
+1670229284.891394
+1670229290.4204571
+sampling rate = 200000.0
+1670229296.0707126
+1670229350.7182565
+1670229404.7020385
+1670229459.3809566
+1670229514.9956927
+1670229569.75197
+1670229624.477516
+done
+
+2022-12-05 03:34:45,093 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496160583
+
+48
+302: 485574721
+1670229314.68742
+1670229321.5491474
+sampling rate = 200000.0
+1670229331.8391287
+1670229387.2713132
+1670229442.1282885
+1670229496.1184702
+1670229551.0026119
+1670229605.4937105
+1670229660.1519737
+done
+
+2022-12-05 03:35:14,850 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316932
+
+4
+303: 485574832
+1670229315.0604048
+1670229326.6068642
+sampling rate = 200000.0
+1670229334.0625167
+1670229388.3939064
+1670229440.7202053
+1670229492.764947
+1670229545.7413583
+1670229598.892075
+1670229651.3958635
+done
+
+2022-12-05 03:35:15,225 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316923
+
+36
+305: 485835055
+1670229375.308124
+1670229380.7881906
+sampling rate = 200000.0
+1670229383.026979
+1670229383.0269907
+1670229438.4344957
+1670229494.5046713
+1670229550.1860664
+1670229605.9214
+1670229661.2921474
+done
+
+2022-12-05 03:36:15,501 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316580
+
+52
+304: 485835016
+1670229375.3099756
+1670229385.928665
+sampling rate = 200000.0
+1670229398.4579935
+1670229453.3802724
+1670229508.485724
+1670229562.9763286
+1670229617.9939296
+1670229672.640729
+1670229727.6417072
+done
+
+2022-12-05 03:36:15,489 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316896
+
+20
+306: 485836906
+1670229375.3124926
+1670229382.671634
+sampling rate = 200000.0
+1670229389.3590782
+1670229445.9104426
+1670229500.9082615
+1670229556.191733
+1670229611.3626614
+1670229666.873768
+1670229721.9888668
+done
+
+2022-12-05 03:36:15,492 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316807
+
+16
+307: 485837504
+1670229404.954686
+1670229413.2009637
+sampling rate = 200000.0
+1670229426.5372787
+1670229480.7855544
+1670229534.8618412
+1670229588.8262331
+1670229643.1569927
+1670229697.698198
+1670229752.1946797
+done
+
+2022-12-05 03:36:45,116 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496603775
+
+40
+308: 485838981
+1670229404.8859966
+1670229414.7800653
+sampling rate = 200000.0
+1670229420.853963
+1670229475.779315
+1670229529.4905999
+1670229583.9510303
+1670229637.9639244
+1670229692.0970142
+1670229746.416458
+done
+
+2022-12-05 03:36:45,048 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316594
+
+0
+309: 485880739
+1670229404.7591007
+1670229416.6322157
+sampling rate = 200000.0
+1670229424.3142524
+1670229477.3652182
+1670229529.8362777
+1670229582.2691827
+1670229635.435896
+1670229688.2675834
+1670229741.6892376
+done
+
+2022-12-05 03:36:44,925 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491317527
+
+52
+322: 486502127
+1670229735.4909127
+1670229741.1936293
+no sweeps found for neuron 486502127 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:42:15,668 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316407
+
+8
+311: 485911892
+1670229435.1010435
+1670229440.099791
+sampling rate = 200000.0
+1670229443.8849974
+1670229497.6912405
+1670229551.5133426
+1670229604.695345
+1670229658.0182903
+1670229711.398698
+1670229764.7766335
+done
+
+2022-12-05 03:37:15,261 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496197300
+
+60
+312: 485912047
+1670229435.0962331
+1670229444.1779103
+sampling rate = 200000.0
+1670229454.3269663
+1670229507.7306786
+1670229561.4761395
+1670229616.0611634
+1670229670.0472457
+1670229723.6784418
+1670229777.5739634
+done
+
+2022-12-05 03:37:15,258 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491316968
+
+44
+313: 485931158
+1670229495.367358
+1670229508.3144734
+sampling rate = 200000.0
+1670229515.6156287
+1670229570.5642035
+1670229624.8154862
+1670229679.7528415
+1670229734.8890696
+1670229788.88675
+1670229843.6636052
+done
+
+2022-12-05 03:38:15,532 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496604376
+
+56
+314: 486025194
+1670229554.9222624
+1670229559.839455
+sampling rate = 200000.0
+1670229563.3872397
+1670229563.3872526
+1670229618.4130373
+1670229673.4272513
+1670229728.2960107
+1670229783.3976
+1670229838.1003134
+done
+
+2022-12-05 03:39:15,089 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544751908
+
+28
+315: 486052980
+1670229585.1456356
+1670229595.5269644
+sampling rate = 200000.0
+1670229604.0510151
+1670229657.457072
+1670229710.9226036
+1670229764.1167111
+1670229818.6100323
+1670229872.0478833
+1670229925.695265
+done
+
+2022-12-05 03:39:45,327 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496461083
+
+32
+317: 486111903
+1670229615.1484523
+1670229626.923436
+sampling rate = 200000.0
+1670229634.4193733
+1670229687.401362
+1670229740.8672824
+1670229793.8206353
+1670229847.4466953
+1670229900.7918854
+1670229954.1286213
+done
+
+2022-12-05 03:40:15,313 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/500919192
+
+24
+316: 486110216
+1670229615.1545398
+1670229622.9741726
+sampling rate = 200000.0
+1670229633.4539816
+1670229690.151884
+1670229746.945837
+1670229803.9729762
+1670229860.8299916
+1670229916.987197
+1670229973.3776577
+done
+
+2022-12-05 03:40:15,316 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496453673
+
+12
+318: 486132712
+1670229645.1089964
+1670229654.4037585
+sampling rate = 200000.0
+1670229660.069151
+1670229713.9706967
+1670229767.5101974
+1670229821.1614935
+1670229875.5701091
+1670229929.7793784
+1670229983.532835
+done
+
+2022-12-05 03:40:45,273 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/545998534
+
+4
+320: 486239338
+1670229675.5323448
+1670229685.3657887
+sampling rate = 200000.0
+1670229692.8918548
+1670229746.7190945
+1670229800.3815312
+1670229854.323095
+1670229909.1018684
+1670229962.9610488
+1670230016.660353
+done
+
+2022-12-05 03:41:15,698 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515381481
+
+36
+321: 486262299
+1670229675.534189
+1670229683.9308496
+sampling rate = 200000.0
+1670229687.8593366
+1670229741.491817
+1670229794.5634646
+1670229848.0780334
+1670229902.0505884
+1670229955.7427645
+1670230009.0116985
+done
+
+2022-12-05 03:41:15,694 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/545781538
+
+48
+319: 486146717
+1670229675.5092773
+1670229683.2781937
+sampling rate = 200000.0
+1670229690.5876353
+1670229753.2139513
+1670229815.183006
+1670229877.0603595
+1670229938.9856975
+1670230000.93875
+1670230063.2960396
+done
+
+2022-12-05 03:41:15,672 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496197135
+
+20
+323: 486560376
+1670229735.488692
+1670229745.8790722
+sampling rate = 200000.0
+1670229755.7024682
+1670229810.2977195
+1670229864.8451214
+1670229918.9541616
+1670229973.1457615
+1670230027.124578
+1670230081.045472
+done
+
+2022-12-05 03:42:15,673 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496453739
+
+8
+328: 488117124
+1670229795.4564192
+1670229801.788435
+sampling rate = 200000.0
+1670229805.6421683
+1670229805.6421857
+1670229857.7243478
+1670229909.7952788
+1670229961.822406
+1670230013.6213186
+1670230065.1756713
+done
+
+2022-12-05 03:43:15,834 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496453636
+
+60
+329: 488420599
+1670229795.547329
+1670229801.0891209
+sampling rate = 200000.0
+1670229808.1195254
+1670229808.1195457
+1670229860.9865978
+1670229914.0798602
+1670229967.8675673
+1670230020.767763
+1670230073.7173305
+done
+
+2022-12-05 03:43:15,733 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496453581
+
+40
+325: 487601493
+1670229765.6588387
+1670229770.966319
+sampling rate = 200000.0
+1670229778.5023222
+1670229832.5824895
+1670229886.483996
+1670229940.370966
+1670229993.8676746
+1670230047.5416007
+1670230101.283684
+done
+
+2022-12-05 03:42:45,824 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496192204
+
+0
+326: 487661754
+1670229765.6489892
+1670229773.8916214
+sampling rate = 200000.0
+1670229779.7067723
+1670229833.927537
+1670229887.3902183
+1670229940.806932
+1670229994.0995746
+1670230047.3428366
+1670230099.975959
+done
+
+2022-12-05 03:42:45,866 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496194462
+
+52
+327: 487664663
+1670229765.6172395
+1670229774.134321
+sampling rate = 200000.0
+1670229783.0244055
+1670229836.2591317
+1670229889.918129
+1670229942.8336506
+1670229996.356077
+1670230050.179945
+1670230104.6631098
+done
+
+2022-12-05 03:42:45,783 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496194535
+
+16
+324: 486893033
+1670229765.4995937
+1670229774.484066
+sampling rate = 200000.0
+1670229783.1857002
+1670229839.599472
+1670229896.8282397
+1670229953.7658708
+1670230011.1868944
+1670230067.7672873
+1670230124.949972
+done
+
+2022-12-05 03:42:45,662 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496453720
+
+56
+331: 488680211
+1670229855.5793397
+1670229858.849595
+sampling rate = 200000.0
+1670229862.365995
+1670229862.3660078
+1670229916.1188114
+1670229970.004785
+1670230023.9532528
+1670230077.5501158
+1670230131.450325
+done
+
+2022-12-05 03:44:15,760 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496277132
+
+16
+345: 501845152
+1670230155.9218328
+1670230159.251823
+no sweeps found for neuron 501845152 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:49:16,083 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515376555
+
+44
+330: 488679042
+1670229855.564281
+1670229865.2206535
+sampling rate = 200000.0
+1670229869.0160866
+1670229922.6517391
+1670229975.7311356
+1670230029.1400342
+1670230082.4472656
+1670230135.001665
+1670230188.0035193
+done
+
+2022-12-05 03:44:15,730 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496275606
+
+40
+342: 497611660
+1670230125.7640119
+1670230130.199376
+sampling rate = 50000.0
+1670230131.3819358
+1670230145.029139
+1670230158.2610447
+1670230171.210221
+1670230184.2099226
+1670230197.0920904
+1670230210.0358264
+done
+
+2022-12-05 03:48:45,927 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/539899473
+
+0
+343: 501799874
+1670230125.7578
+1670230129.1257029
+sampling rate = 50000.0
+1670230130.6586804
+1670230130.6586916
+1670230143.849093
+1670230157.1207228
+1670230170.244927
+1670230183.447168
+1670230196.5224917
+done
+
+2022-12-05 03:48:45,919 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515347281
+
+52
+344: 501841672
+1670230125.8272762
+1670230130.1407754
+sampling rate = 50000.0
+1670230131.0257576
+1670230131.0257707
+1670230144.0841272
+1670230157.1540332
+1670230170.2112145
+1670230183.3983672
+1670230196.8273566
+done
+
+2022-12-05 03:48:45,987 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/529906182
+
+56
+346: 501845630
+1670230155.9276185
+1670230159.3627577
+sampling rate = 50000.0
+1670230160.9452167
+1670230160.9452295
+1670230174.2068636
+1670230187.4913766
+1670230200.7388775
+1670230214.033664
+1670230227.4432802
+done
+
+2022-12-05 03:49:16,087 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515338356
+
+16
+347: 501847931
+1670230185.617796
+1670230189.7636163
+sampling rate = 50000.0
+1670230191.3781292
+1670230191.3781457
+1670230205.2556493
+1670230219.1990936
+1670230232.9398339
+1670230246.4577498
+1670230260.2091422
+done
+
+2022-12-05 03:49:45,803 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447414
+
+28
+332: 488680917
+1670229945.5336454
+1670229954.450777
+sampling rate = 200000.0
+1670229967.9857912
+1670230021.1997008
+1670230074.2403266
+1670230127.000837
+1670230179.503764
+1670230232.462174
+1670230285.3616123
+done
+
+2022-12-05 03:45:45,717 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496606320
+
+44
+348: 501850666
+1670230216.3422997
+1670230218.9000897
+sampling rate = 50000.0
+1670230220.0441227
+1670230220.0441341
+1670230233.9570007
+1670230247.6674163
+1670230261.3609183
+1670230275.2033556
+1670230289.0232377
+done
+
+2022-12-05 03:50:16,503 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544781993
+
+40
+349: 501956013
+1670230216.3369079
+1670230219.0256178
+sampling rate = 50000.0
+1670230219.8428435
+1670230233.5340064
+1670230246.813135
+1670230259.9985178
+1670230273.2140453
+1670230286.4022846
+1670230299.5192473
+done
+
+2022-12-05 03:50:16,499 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515367125
+
+0
+350: 502267531
+1670230216.292305
+1670230220.6755128
+sampling rate = 50000.0
+1670230221.9554107
+1670230235.608472
+1670230248.7770658
+1670230261.948364
+1670230275.261011
+1670230288.5476174
+1670230301.755021
+done
+
+2022-12-05 03:50:16,453 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515296365
+
+24
+334: 488687894
+1670230005.7801886
+1670230013.165911
+sampling rate = 200000.0
+1670230023.3728468
+1670230023.372861
+1670230080.5432832
+1670230138.627635
+1670230196.0518985
+1670230253.803679
+1670230311.031211
+done
+
+2022-12-05 03:46:45,942 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496453608
+
+52
+351: 502269786
+1670230216.3440554
+1670230221.6845963
+sampling rate = 50000.0
+1670230223.684924
+1670230237.3378425
+1670230250.5887828
+1670230263.8847797
+1670230277.1774364
+1670230290.3811426
+1670230303.372146
+done
+
+2022-12-05 03:50:16,505 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515386573
+
+56
+352: 502359001
+1670230245.6429954
+1670230249.286592
+sampling rate = 50000.0
+1670230250.337696
+1670230250.3377087
+1670230264.3014529
+1670230278.303613
+1670230292.2415907
+1670230306.2790847
+1670230320.0447826
+done
+
+2022-12-05 03:50:45,822 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515359222
+
+32
+333: 488683425
+1670229975.4429612
+1670229979.7756474
+sampling rate = 200000.0
+1670229985.5130587
+1670230043.1597126
+1670230100.9955897
+1670230158.7300928
+1670230216.5868783
+1670230274.6562083
+1670230332.5565627
+done
+
+2022-12-05 03:46:15,605 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496602511
+
+12
+335: 488695444
+1670230005.7257612
+1670230013.2384586
+sampling rate = 200000.0
+1670230020.9260871
+1670230077.4183528
+1670230133.9315176
+1670230190.6486816
+1670230247.0146332
+1670230303.3102841
+1670230359.4269474
+done
+
+2022-12-05 03:46:45,915 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496604879
+
+4
+336: 488697163
+1670230035.7269235
+1670230042.1940258
+sampling rate = 200000.0
+1670230047.9518728
+1670230103.658264
+1670230159.530851
+1670230214.8289618
+1670230270.2531378
+1670230325.5099747
+1670230380.573393
+done
+
+2022-12-05 03:47:15,888 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496351144
+
+36
+337: 488698341
+1670230035.6573114
+1670230046.683555
+sampling rate = 200000.0
+1670230054.0063336
+1670230106.6276903
+1670230159.7199602
+1670230212.9195547
+1670230266.11836
+1670230318.9522674
+1670230371.8619301
+done
+
+2022-12-05 03:47:15,825 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496603876
+
+16
+353: 502366405
+1670230275.7581291
+1670230280.1790812
+sampling rate = 50000.0
+1670230281.7664013
+1670230297.6910822
+1670230313.3306124
+1670230328.5685635
+1670230344.3559256
+1670230359.8628325
+1670230375.4042337
+done
+
+2022-12-05 03:51:15,921 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515376586
+
+28
+354: 502367941
+1670230306.2637362
+1670230308.372789
+sampling rate = 50000.0
+1670230309.4413152
+1670230309.4413366
+1670230323.0257025
+1670230336.6904442
+1670230350.5425646
+1670230364.396332
+1670230378.2750242
+done
+
+2022-12-05 03:51:46,427 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/663442607
+
+44
+355: 502383543
+1670230306.2533147
+1670230312.8431227
+sampling rate = 50000.0
+1670230314.2977798
+1670230314.29779
+1670230327.1186364
+1670230339.707632
+1670230352.4308038
+1670230365.2358809
+1670230377.7143216
+done
+
+2022-12-05 03:51:46,421 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441659
+
+40
+356: 502614426
+1670230306.0659604
+1670230309.0313125
+sampling rate = 50000.0
+1670230310.258756
+1670230310.2587664
+1670230323.7697263
+1670230337.1190364
+1670230350.5646565
+1670230363.887078
+1670230377.2153192
+done
+
+2022-12-05 03:51:46,251 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544847110
+
+0
+357: 502978383
+1670230306.2679574
+1670230311.2150874
+sampling rate = 50000.0
+1670230312.8698158
+1670230326.247473
+1670230339.263672
+1670230352.0733073
+1670230365.145069
+1670230379.1674004
+1670230391.855491
+done
+
+2022-12-05 03:51:46,428 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515386857
+
+24
+358: 502999078
+1670230335.968102
+1670230338.5460544
+sampling rate = 50000.0
+1670230339.60036
+1670230353.6208878
+1670230366.9651697
+1670230380.343212
+1670230393.5066612
+1670230407.182142
+1670230420.5442815
+done
+
+2022-12-05 03:52:16,127 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515376572
+
+20
+339: 490259231
+1670230096.1485944
+1670230103.3770125
+sampling rate = 200000.0
+1670230115.5462656
+1670230171.0108275
+1670230226.9481153
+1670230281.8195333
+1670230337.9371116
+1670230392.8265016
+1670230447.256205
+done
+
+2022-12-05 03:48:16,313 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/497262712
+
+8
+340: 490485142
+1670230096.1526308
+1670230103.5120296
+sampling rate = 200000.0
+1670230107.6479409
+1670230162.7237873
+1670230217.3857327
+1670230271.5175126
+1670230326.2742915
+1670230380.4567025
+1670230434.6039746
+done
+
+2022-12-05 03:48:16,312 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/497262674
+
+60
+341: 490916882
+1670230096.133096
+1670230102.7296925
+sampling rate = 200000.0
+1670230115.0930576
+1670230168.9996083
+1670230223.3737314
+1670230277.1617594
+1670230331.0138867
+1670230384.4000223
+1670230437.5970469
+done
+
+2022-12-05 03:48:16,294 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/496602914
+
+52
+359: 503286448
+1670230336.7909358
+1670230343.3361309
+sampling rate = 50000.0
+1670230345.4044628
+1670230359.0690265
+1670230372.40698
+1670230385.2541559
+1670230398.4607966
+1670230411.714795
+1670230424.8153358
+done
+
+2022-12-05 03:52:16,952 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515296252
+
+56
+360: 503814817
+1670230335.9193754
+1670230341.7277288
+sampling rate = 50000.0
+1670230343.8025959
+1670230357.4855194
+1670230370.8193924
+1670230383.9733315
+1670230397.262334
+1670230410.5539184
+1670230423.9181995
+done
+
+2022-12-05 03:52:16,081 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/566092672
+
+32
+361: 503823047
+1670230366.0991452
+1670230370.3684638
+sampling rate = 50000.0
+1670230372.3197036
+1670230372.3197205
+1670230385.0985377
+1670230398.1898646
+1670230411.4942434
+1670230424.5332313
+1670230437.6491642
+done
+
+2022-12-05 03:52:46,281 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515389893
+
+12
+362: 506133241
+1670230366.1080174
+1670230371.3136275
+sampling rate = 50000.0
+1670230372.5054877
+1670230372.505499
+1670230385.7036464
+1670230399.0544267
+1670230412.4568899
+1670230425.680512
+1670230439.036132
+done
+
+2022-12-05 03:52:46,287 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/644876175
+
+48
+338: 490205998
+1670230096.0868032
+1670230105.3322852
+sampling rate = 200000.0
+1670230111.878949
+1670230169.895643
+1670230228.3249295
+1670230285.992604
+1670230344.2888346
+1670230402.840838
+1670230460.3070116
+done
+
+2022-12-05 03:48:16,279 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/497262730
+
+4
+363: 507101551
+1670230396.943319
+1670230400.1401498
+sampling rate = 50000.0
+1670230401.015059
+1670230401.0150712
+1670230414.4553928
+1670230427.5524714
+1670230440.8812695
+1670230453.9783916
+1670230467.4083805
+done
+
+2022-12-05 03:53:17,103 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447240
+
+36
+364: 507918877
+1670230396.9695866
+1670230399.2384338
+sampling rate = 50000.0
+1670230400.796517
+1670230414.4274206
+1670230427.482297
+1670230440.8001034
+1670230453.9623208
+1670230467.0698133
+1670230479.7810917
+done
+
+2022-12-05 03:53:17,185 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/515522054
+
+28
+366: 509003464
+1670230396.9638128
+1670230399.9132123
+sampling rate = 50000.0
+1670230401.9214354
+1670230415.6125784
+1670230428.7569325
+1670230441.8039007
+1670230455.282303
+1670230468.8435967
+1670230482.0525768
+done
+
+2022-12-05 03:53:17,130 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/529905649
+
+44
+367: 509881736
+1670230396.6265
+1670230401.0013268
+sampling rate = 50000.0
+1670230402.4873574
+1670230416.2131436
+1670230429.4521656
+1670230442.6517172
+1670230456.009678
+1670230469.2271693
+1670230482.237717
+done
+
+2022-12-05 03:53:16,787 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/529829375
+
+40
+368: 510136749
+1670230396.9670675
+1670230400.4975963
+sampling rate = 50000.0
+1670230401.3743846
+1670230401.3743978
+1670230413.7675354
+1670230426.508007
+1670230439.051164
+1670230451.239416
+1670230464.657372
+done
+
+2022-12-05 03:53:17,126 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/663442615
+
+0
+369: 510658021
+1670230396.890814
+1670230399.9891915
+sampling rate = 50000.0
+1670230400.4408367
+1670230400.4408476
+1670230413.7721632
+1670230426.904858
+1670230440.2730029
+1670230453.4356875
+1670230466.9112258
+done
+
+2022-12-05 03:53:17,052 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544846370
+
+52
+374: 513800575
+1670230457.0063212
+1670230461.0309765
+no sweeps found for neuron 513800575 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:54:17,167 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544781912
+
+16
+365: 508980706
+1670230396.9046545
+1670230400.9946182
+sampling rate = 50000.0
+1670230402.6267521
+1670230418.8880434
+1670230434.3242397
+1670230449.4554012
+1670230463.8004534
+1670230476.7659302
+1670230490.2617002
+done
+
+2022-12-05 03:53:17,071 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/535543334
+
+24
+370: 512319604
+1670230426.114788
+1670230430.6138427
+sampling rate = 50000.0
+1670230432.160085
+1670230432.1600978
+1670230445.5059876
+1670230459.3493316
+1670230473.1628165
+1670230486.741184
+1670230500.220495
+done
+
+2022-12-05 03:53:46,279 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544782020
+
+4
+379: 515771244
+1670230487.2428324
+1670230490.5373793
+no sweeps found for neuron 515771244 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:54:47,404 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544781883
+
+8
+372: 513510227
+1670230456.9049816
+1670230461.0073495
+sampling rate = 50000.0
+1670230462.228049
+1670230475.5413582
+1670230488.4803078
+1670230501.9514582
+1670230514.725469
+1670230527.6219118
+1670230540.3399348
+done
+
+2022-12-05 03:54:17,068 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/563216440
+
+32
+376: 515435668
+1670230456.970795
+1670230461.791349
+sampling rate = 50000.0
+1670230463.278825
+1670230463.2788389
+1670230476.1197512
+1670230489.7753093
+1670230502.824758
+1670230515.8246498
+1670230528.835716
+done
+
+2022-12-05 03:54:17,134 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544782011
+
+12
+377: 515464483
+1670230456.931253
+1670230460.3832428
+sampling rate = 50000.0
+1670230461.5287168
+1670230461.5287273
+1670230474.6667235
+1670230487.9891708
+1670230501.1577141
+1670230514.3970022
+1670230527.6912572
+done
+
+2022-12-05 03:54:17,091 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544781921
+
+20
+371: 512322162
+1670230457.0121388
+1670230462.3312135
+sampling rate = 50000.0
+1670230463.9636984
+1670230477.6074178
+1670230491.3317358
+1670230504.6392431
+1670230517.9556096
+1670230531.1356833
+1670230544.3337252
+done
+
+2022-12-05 03:54:17,172 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544782053
+
+60
+373: 513531471
+1670230457.0151348
+1670230462.981857
+sampling rate = 50000.0
+1670230464.5969715
+1670230478.1165395
+1670230491.839713
+1670230505.2706163
+1670230518.716095
+1670230532.2042468
+1670230545.5925763
+done
+
+2022-12-05 03:54:17,175 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544782042
+
+56
+375: 515249852
+1670230456.8075554
+1670230461.2341993
+sampling rate = 50000.0
+1670230463.0334501
+1670230476.4456203
+1670230489.8808873
+1670230503.1598969
+1670230516.6253555
+1670230530.226608
+1670230543.3049684
+done
+
+2022-12-05 03:54:16,971 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544781903
+
+48
+378: 515524026
+1670230487.1229916
+1670230489.0281625
+sampling rate = 50000.0
+1670230489.8736935
+1670230503.3164568
+1670230516.8485143
+1670230530.1771555
+1670230543.422714
+1670230556.5207963
+1670230569.5476203
+done
+
+2022-12-05 03:54:47,298 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/562383189
+
+36
+380: 515986607
+1670230487.2403753
+1670230490.1597416
+sampling rate = 50000.0
+1670230490.6196883
+1670230490.6197004
+1670230503.4770272
+1670230516.7495325
+1670230529.9499648
+1670230542.7119718
+1670230555.542454
+done
+
+2022-12-05 03:54:47,404 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544781957
+
+28
+381: 517077548
+1670230487.1153162
+1670230492.0594459
+sampling rate = 50000.0
+1670230492.942095
+1670230506.4466498
+1670230519.8049061
+1670230533.0043244
+1670230546.1232584
+1670230559.2408419
+1670230572.241704
+done
+
+2022-12-05 03:54:47,298 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544781939
+
+40
+383: 517647182
+1670230487.200607
+1670230490.6718569
+sampling rate = 50000.0
+1670230491.9582357
+1670230505.3551426
+1670230518.6166592
+1670230531.932967
+1670230545.289167
+1670230558.6381924
+1670230571.7676945
+done
+
+2022-12-05 03:54:47,361 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544781984
+
+0
+384: 521409057
+1670230487.1888583
+1670230489.4502296
+sampling rate = 50000.0
+1670230490.6636603
+1670230503.9772186
+1670230516.8589823
+1670230529.7432942
+1670230542.525001
+1670230555.5655453
+1670230568.45928
+done
+
+2022-12-05 03:54:47,350 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544781930
+
+52
+385: 521938313
+1670230487.2300987
+1670230490.855675
+sampling rate = 50000.0
+1670230491.746796
+1670230505.0333538
+1670230518.0874681
+1670230531.332056
+1670230544.475935
+1670230557.4804733
+1670230570.3639188
+done
+
+2022-12-05 03:54:47,390 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544781894
+
+44
+382: 517319635
+1670230487.1551826
+1670230491.4568443
+sampling rate = 50000.0
+1670230492.9723566
+1670230507.1096957
+1670230520.8957334
+1670230534.808311
+1670230548.7522366
+1670230562.5052297
+1670230576.388693
+done
+
+2022-12-05 03:54:47,656 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/562384541
+
+24
+387: 522301604
+1670230516.23575
+1670230519.458078
+sampling rate = 50000.0
+1670230520.3825626
+1670230520.3825753
+1670230534.3594785
+1670230548.1434524
+1670230561.966597
+1670230576.1396222
+1670230590.1713893
+done
+
+2022-12-05 03:55:16,400 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544781975
+
+56
+394: 527826878
+1670230577.648088
+1670230579.0514894
+no sweeps found for neuron 527826878 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:56:17,809 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659449023
+
+16
+386: 522152249
+1670230516.357495
+1670230522.9525054
+sampling rate = 50000.0
+1670230524.1520443
+1670230540.5364902
+1670230556.1553664
+1670230571.6047058
+1670230587.7138112
+1670230603.1608007
+1670230616.8608909
+done
+
+2022-12-05 03:55:16,518 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544782063
+
+4
+388: 524850271
+1670230516.4222026
+1670230521.020589
+sampling rate = 50000.0
+1670230522.461431
+1670230536.7475905
+1670230550.6385937
+1670230564.4763947
+1670230578.5392807
+1670230592.305711
+1670230606.2221746
+done
+
+2022-12-05 03:55:16,583 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/580156152
+
+8
+389: 526573598
+1670230546.2789068
+1670230550.3949246
+sampling rate = 50000.0
+1670230550.8400393
+1670230550.84005
+1670230564.1004236
+1670230577.9092286
+1670230590.8232985
+1670230603.9651551
+1670230617.367472
+done
+
+2022-12-05 03:55:46,445 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/544782002
+
+32
+390: 526643573
+1670230546.3170393
+1670230549.314996
+sampling rate = 50000.0
+1670230549.7403204
+1670230549.7403321
+1670230563.5490353
+1670230577.3862836
+1670230590.8923807
+1670230604.4576747
+1670230618.0329652
+done
+
+2022-12-05 03:55:46,480 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593193
+
+12
+391: 526668864
+1670230546.3830616
+1670230550.5658274
+sampling rate = 50000.0
+1670230551.7022994
+1670230551.7023108
+1670230564.8834906
+1670230578.2061863
+1670230591.4016216
+1670230604.8386898
+1670230618.082606
+done
+
+2022-12-05 03:55:46,548 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593234
+
+20
+392: 526950199
+1670230577.5082564
+1670230581.1136353
+sampling rate = 50000.0
+1670230582.804256
+1670230596.127434
+1670230609.3373027
+1670230622.50567
+1670230635.6867325
+1670230648.8757515
+1670230661.59155
+done
+
+2022-12-05 03:56:17,670 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/562385051
+
+60
+393: 527116037
+1670230577.6391444
+1670230581.5133224
+sampling rate = 50000.0
+1670230583.2214198
+1670230583.2214396
+1670230596.31092
+1670230609.570384
+1670230622.9191966
+1670230636.107524
+1670230649.4453247
+done
+
+2022-12-05 03:56:17,799 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441654
+
+48
+395: 554454458
+1670230577.5683546
+1670230581.6725068
+sampling rate = 50000.0
+1670230582.646232
+1670230582.6462462
+1670230596.225348
+1670230609.8966298
+1670230623.4298494
+1670230637.1836643
+1670230650.8423898
+done
+
+2022-12-05 03:56:17,728 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441780
+
+36
+396: 555241875
+1670230577.560852
+1670230580.7366912
+sampling rate = 50000.0
+1670230581.6163278
+1670230581.6163394
+1670230595.1649747
+1670230608.6440618
+1670230622.1499808
+1670230635.6755662
+1670230649.3434834
+done
+
+2022-12-05 03:56:17,726 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441068
+
+28
+397: 557037024
+1670230577.6367016
+1670230580.939459
+sampling rate = 50000.0
+1670230581.4350297
+1670230581.4350414
+1670230594.7923238
+1670230608.2094123
+1670230621.5862021
+1670230634.944584
+1670230648.3727875
+done
+
+2022-12-05 03:56:17,800 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447462
+
+40
+398: 557252022
+1670230577.1815257
+1670230580.7668073
+sampling rate = 50000.0
+1670230581.605537
+1670230595.1585946
+1670230608.420393
+1670230621.5577693
+1670230634.8815308
+1670230648.228235
+1670230661.4017467
+done
+
+2022-12-05 03:56:17,375 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659447496
+
+0
+399: 557864274
+1670230577.4466102
+1670230580.874248
+sampling rate = 50000.0
+1670230582.0566378
+1670230595.6045768
+1670230608.721499
+1670230621.856446
+1670230635.0635483
+1670230648.5313509
+1670230661.7134178
+done
+
+2022-12-05 03:56:17,614 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659449289
+
+52
+400: 557874460
+1670230577.6325097
+1670230582.4342594
+sampling rate = 50000.0
+1670230583.65411
+1670230583.6541266
+1670230597.0540602
+1670230610.725946
+1670230624.2236795
+1670230637.8967083
+1670230651.5491426
+done
+
+2022-12-05 03:56:17,794 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/644942986
+
+16
+404: 562541627
+1670230636.748223
+1670230640.1564434
+no sweeps found for neuron 562541627 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:57:16,913 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441702
+
+44
+401: 557998843
+1670230606.5625947
+1670230609.5880802
+sampling rate = 50000.0
+1670230610.3374815
+1670230623.7423155
+1670230636.7981658
+1670230650.0848582
+1670230663.100908
+1670230676.2125766
+1670230689.1405287
+done
+
+2022-12-05 03:56:46,725 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659449177
+
+24
+402: 559387643
+1670230606.5637424
+1670230610.1241488
+sampling rate = 50000.0
+1670230611.425927
+1670230624.9957845
+1670230638.1371002
+1670230651.223389
+1670230664.094995
+1670230677.6568623
+1670230690.606446
+done
+
+2022-12-05 03:56:46,725 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441395
+
+56
+403: 560678143
+1670230606.579354
+1670230609.997816
+sampling rate = 50000.0
+1670230611.2182202
+1670230611.2182426
+1670230624.4485674
+1670230637.9683695
+1670230651.4903274
+1670230664.4395263
+1670230678.0753026
+done
+
+2022-12-05 03:56:46,738 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659449968
+
+40
+414: 584254833
+1670230667.759177
+1670230669.2875323
+no sweeps found for neuron 584254833 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:57:47,921 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/646542006
+
+0
+415: 584680861
+1670230667.5490255
+1670230670.9900277
+no sweeps found for neuron 584680861 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:57:47,711 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446878
+
+4
+405: 563180078
+1670230636.9882703
+1670230640.1200469
+sampling rate = 50000.0
+1670230640.5075846
+1670230640.507596
+1670230653.6644785
+1670230667.1133587
+1670230680.3125477
+1670230693.2976341
+1670230706.5438995
+done
+
+2022-12-05 03:57:17,147 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659449259
+
+12
+408: 568568071
+1670230637.0096831
+1670230640.766689
+sampling rate = 50000.0
+1670230641.546002
+1670230641.5460134
+1670230655.8602214
+1670230670.2402065
+1670230684.422418
+1670230698.621525
+1670230712.755659
+done
+
+2022-12-05 03:57:17,175 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441708
+
+8
+406: 563226105
+1670230637.0216417
+1670230641.1189156
+sampling rate = 50000.0
+1670230642.6358519
+1670230656.4421732
+1670230670.2567117
+1670230683.5972495
+1670230697.2990332
+1670230710.8451698
+1670230724.2298262
+done
+
+2022-12-05 03:57:17,180 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659441675
+
+32
+407: 565863515
+1670230636.9723783
+1670230642.2851684
+sampling rate = 50000.0
+1670230643.7849717
+1670230657.5967674
+1670230671.1638508
+1670230684.1223297
+1670230697.7019331
+1670230710.9664168
+1670230723.8204434
+done
+
+2022-12-05 03:57:17,137 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446286
+
+20
+409: 571306690
+1670230667.7735717
+1670230671.6583984
+sampling rate = 50000.0
+1670230672.1456566
+1670230672.1456697
+1670230686.0037112
+1670230699.314439
+1670230712.6717477
+1670230725.8035269
+1670230738.963102
+done
+
+2022-12-05 03:57:47,935 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657593410
+
+36
+412: 580007431
+1670230667.6185899
+1670230671.654979
+sampling rate = 50000.0
+1670230672.5399501
+1670230685.8093538
+1670230698.7610123
+1670230711.747529
+1670230724.8383338
+1670230737.8016384
+1670230750.697302
+done
+
+2022-12-05 03:57:47,780 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446797
+
+52
+416: 584682764
+1670230667.7795732
+1670230672.2515485
+sampling rate = 50000.0
+1670230673.9166174
+1670230673.916639
+1670230687.078173
+1670230700.504354
+1670230713.6914353
+1670230726.7669897
+1670230739.9580333
+done
+
+2022-12-05 03:57:47,939 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446889
+
+16
+417: 588402092
+1670230667.6951625
+1670230671.9878933
+sampling rate = 50000.0
+1670230672.8683844
+1670230672.8684027
+1670230686.1681283
+1670230699.6044202
+1670230713.0672867
+1670230726.650957
+1670230739.919105
+done
+
+2022-12-05 03:57:47,859 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/663840851
+
+12
+424: 599334696
+1670230726.742673
+1670230729.7571042
+no sweeps found for neuron 599334696 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:58:46,906 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659449137
+
+60
+410: 578938153
+1670230667.7022388
+1670230672.946392
+sampling rate = 50000.0
+1670230674.550811
+1670230687.869354
+1670230701.3782532
+1670230714.6000783
+1670230727.5957828
+1670230740.5893435
+1670230753.2398765
+done
+
+2022-12-05 03:57:47,862 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446352
+
+48
+411: 580005568
+1670230667.7174404
+1670230671.67279
+sampling rate = 50000.0
+1670230673.4112458
+1670230689.4527025
+1670230705.0622237
+1670230720.3385534
+1670230735.872243
+1670230751.0345101
+1670230766.8012218
+done
+
+2022-12-05 03:57:47,876 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446829
+
+28
+413: 580010290
+1670230667.749353
+1670230674.1848068
+sampling rate = 50000.0
+1670230675.7213657
+1670230689.401126
+1670230702.8551788
+1670230716.039664
+1670230729.364228
+1670230742.49904
+1670230755.6331062
+done
+
+2022-12-05 03:57:47,913 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659446895
+
+44
+418: 588712191
+1670230697.1150324
+1670230701.903837
+sampling rate = 50000.0
+1670230703.1546218
+1670230703.1546342
+1670230716.5126054
+1670230729.9713576
+1670230743.142397
+1670230756.475565
+1670230770.0021827
+done
+
+2022-12-05 03:58:17,273 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659449525
+
+24
+419: 589128331
+1670230697.1035328
+1670230698.8381646
+sampling rate = 50000.0
+1670230699.6728466
+1670230699.6728592
+1670230713.3607242
+1670230726.241226
+1670230739.1637442
+1670230752.6337392
+1670230765.991415
+done
+
+2022-12-05 03:58:17,264 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659448775
+
+8
+425: 602822298
+1670230757.016296
+1670230758.2594159
+no sweeps found for neuron 602822298 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:59:17,183 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/657856204
+
+56
+420: 589427435
+1670230697.0919867
+1670230700.15861
+sampling rate = 50000.0
+1670230701.8647556
+1670230716.2499354
+1670230730.089443
+1670230743.965269
+1670230757.898442
+1670230771.7286954
+1670230785.2172494
+done
+
+2022-12-05 03:58:17,253 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659448911
+
+40
+421: 589442285
+1670230697.0872118
+1670230701.6719494
+sampling rate = 50000.0
+1670230703.299315
+1670230717.0645766
+1670230730.623129
+1670230743.8782547
+1670230757.4511945
+1670230770.79315
+1670230784.1345472
+done
+
+2022-12-05 03:58:17,249 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659448858
+
+0
+422: 589760138
+1670230697.1161513
+1670230701.9608965
+sampling rate = 50000.0
+1670230703.5537026
+1670230717.1283045
+1670230730.3774264
+1670230743.480838
+1670230757.0924213
+1670230770.5497537
+1670230783.6892538
+done
+
+2022-12-05 03:58:17,276 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659448896
+
+4
+423: 598628992
+1670230726.725859
+1670230731.2119162
+sampling rate = 50000.0
+1670230732.3579533
+1670230732.357964
+1670230745.3234375
+1670230758.7186246
+1670230772.1914718
+1670230785.2606165
+1670230798.195707
+done
+
+2022-12-05 03:58:46,890 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/659449346
+
+48
+9: 333785962
+1670230786.540487
+1670230793.5594254
+no sweeps found for neuron 333785962 with stimulus b'Noise 1'
+done
+
+2022-12-05 03:59:46,704 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199989
+
+32
+426: 603402458
+1670230757.5228271
+1670230762.8966193
+sampling rate = 50000.0
+1670230764.349499
+1670230777.8477812
+1670230790.7758026
+1670230803.6251678
+1670230816.4027576
+1670230829.1663377
+1670230841.8420222
+done
+
+2022-12-05 03:59:17,690 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/644942018
+
+20
+427: 603423462
+1670230757.5335865
+1670230760.463325
+sampling rate = 50000.0
+1670230760.9119606
+1670230760.9119754
+1670230774.0023994
+1670230786.8473816
+1670230799.7375972
+1670230812.3480988
+1670230824.8426058
+done
+
+2022-12-05 03:59:17,700 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/652812674
+
+36
+428: 605660220
+1670230757.5055714
+1670230760.9698067
+sampling rate = 50000.0
+1670230762.0901961
+1670230775.4486108
+1670230788.3887634
+1670230801.1899884
+1670230813.8780198
+1670230826.5374508
+1670230839.1941628
+done
+
+2022-12-05 03:59:17,673 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/639379805
+
+52
+429: 607124114
+1670230757.5312889
+1670230761.0261395
+sampling rate = 50000.0
+1670230762.5441504
+1670230762.5441642
+1670230775.7826717
+1670230789.0546613
+1670230802.5323417
+1670230815.6456478
+1670230828.6599176
+done
+
+2022-12-05 03:59:17,693 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/644942001
+
+16
+2: 321708130
+1670230757.4202971
+1670230764.1688843
+sampling rate = 200000.0
+1670230767.7888083
+1670230767.78883
+1670230815.097049
+1670230861.2981305
+1670230906.7297566
+1670230951.9784186
+1670230997.4087198
+done
+
+2022-12-05 03:59:17,586 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200082
+
+12
+3: 323452196
+1670230757.4729857
+1670230765.9073954
+sampling rate = 200000.0
+1670230767.7042487
+1670230767.7042603
+1670230817.2882526
+1670230865.1295214
+1670230911.6979926
+1670230957.7241654
+1670231004.2284935
+done
+
+2022-12-05 03:59:17,638 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491199333
+
+60
+6: 324493977
+1670230786.4665518
+1670230796.194791
+sampling rate = 200000.0
+1670230801.3588738
+1670230847.6192465
+1670230893.079683
+1670230938.5155609
+1670230984.0098925
+1670231028.6137655
+1670231073.0492465
+done
+
+2022-12-05 03:59:46,627 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/491200139
+

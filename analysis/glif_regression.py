@@ -64,6 +64,7 @@ cell_type_input_columns = ['reporter_status',
        'structure_hemisphere',
        'normalized_depth']
 cell_features = []
+cell_feature_names = []
 for column in cell_type_input_columns:
     data = cell_df[column]
     if column == 'normalized_depth':
@@ -79,6 +80,7 @@ for column in cell_type_input_columns:
             data = data.to_numpy()
         data = OneHotEncoder().fit_transform(data[:, None]).todense()
     cell_features.append(data)
+    cell_feature_names += [column] * data.shape[1]
 cell_features = np.concatenate(cell_features, axis=1)
 
 morph_input_columns = ['average_bifurcation_angle_local',
@@ -90,6 +92,7 @@ morph_input_columns = ['average_bifurcation_angle_local',
        'overall_height', 'overall_width', 'soma_surface', 'total_length',
        'total_surface', 'total_volume']
 morph_features = []
+morph_feature_names = morph_input_columns.copy()
 for column in morph_input_columns:
     data = morph_df[column]
     data = data.to_numpy()
@@ -150,6 +153,8 @@ for cell_id, model_id in zip(cell_ids, model_ids):
     keep_config = flatten_dict(model_config)
     keep_config['model_id'] = model_id
     keep_config['cell_id'] = cell_id
+    keep_config['init_threshold'] = keep_config['init_threshold'] * keep_config['coeffs_th_inf']
+    keep_config['th_inf'] = keep_config['th_inf'] * keep_config['coeffs_th_inf']
     model_data.append(keep_config)
 
 model_df = pd.DataFrame(model_data)
@@ -173,18 +178,21 @@ print(has_model.sum())
 def fit_eval_decoder(input_features, full_input_features,
                      regression_model=Ridge, regression_params={'alpha': np.logspace(-8, 3, 12)},
                      classification_model=LogisticRegression, classification_params={},
-                     seed=0):
+                     seed=0, return_models=False):
     np.random.seed(seed)
     score_dict = {}
     score_std_dict = {}
     pred_truth_dict = {}
+    model_dict = {}
     for col in model_df.columns:
         if col in ['model_id', 'cell_id']:
             continue
+        elif col in ['C', 'R_input']:
+            targets = np.log(model_df[col].to_numpy())
         else:
             targets = model_df[col].to_numpy()
         if col in ['El_reference', 'C', 'asc_amp_array_0', 'asc_amp_array_1', 'init_threshold', 
-            'spike_cut_length', 'R_input', 'coeffs_th_inf']:
+            'spike_cut_length', 'R_input']: # , 'coeffs_th_inf']:
 
             gscv = GridSearchCV(regression_model(), regression_params)
             # gscv = GridSearchCV(SVR(), {'C': np.logspace(-8, 0, 5)})
@@ -216,6 +224,10 @@ def fit_eval_decoder(input_features, full_input_features,
         if col == 'spike_cut_length':
             pred = np.round(pred).astype(int)
         pred_truth_dict[col] = pred.tolist()
+        if return_models:
+            model_dict[col] = gscv
+    if return_models:
+        return score_dict, score_std_dict, pred_truth_dict, model_dict
     return score_dict, score_std_dict, pred_truth_dict
 
 # %%
@@ -334,6 +346,8 @@ class MLPEstimator(BaseEstimator, RegressorMixin):
 
 # %% Latents only
 
+"""
+
 print('latents')
 print(time.time())
 
@@ -362,8 +376,8 @@ llpred_truth_dict['has_model'] = has_model.tolist()
 lnpred_truth_dict['has_model'] = has_model.tolist()
 llpred_truth_dict = pd.DataFrame(llpred_truth_dict)
 lnpred_truth_dict = pd.DataFrame(lnpred_truth_dict)
-llpred_truth_dict.to_csv('../analysis/glif_models/ll.csv')
-lnpred_truth_dict.to_csv('../analysis/glif_models/ln.csv')
+# llpred_truth_dict.to_csv('../analysis/glif_models/ll.csv')
+# lnpred_truth_dict.to_csv('../analysis/glif_models/ln.csv')
 
 # lcscore_dict, lcscore_std_dict, lcpred_truth_dict = fit_eval_decoder(
 #     latents, ef_df, skip_cols=skip_cols, 
@@ -403,8 +417,8 @@ clpred_truth_dict['has_model'] = has_model.tolist()
 cnpred_truth_dict['has_model'] = has_model.tolist()
 clpred_truth_dict = pd.DataFrame(clpred_truth_dict)
 cnpred_truth_dict = pd.DataFrame(cnpred_truth_dict)
-clpred_truth_dict.to_csv('../analysis/glif_models/cl.csv')
-cnpred_truth_dict.to_csv('../analysis/glif_models/cn.csv')
+# clpred_truth_dict.to_csv('../analysis/glif_models/cl.csv')
+# cnpred_truth_dict.to_csv('../analysis/glif_models/cn.csv')
 
 # %% Morph only
 
@@ -432,8 +446,8 @@ mlpred_truth_dict['has_model'] = has_model.tolist()
 mnpred_truth_dict['has_model'] = has_model.tolist()
 mlpred_truth_dict = pd.DataFrame(mlpred_truth_dict)
 mnpred_truth_dict = pd.DataFrame(mnpred_truth_dict)
-mlpred_truth_dict.to_csv('../analysis/glif_models/ml.csv')
-mnpred_truth_dict.to_csv('../analysis/glif_models/mn.csv')
+# mlpred_truth_dict.to_csv('../analysis/glif_models/ml.csv')
+# mnpred_truth_dict.to_csv('../analysis/glif_models/mn.csv')
 
 # %% Latents + Cell type
 
@@ -463,8 +477,8 @@ lclpred_truth_dict['has_model'] = has_model.tolist()
 lcnpred_truth_dict['has_model'] = has_model.tolist()
 lclpred_truth_dict = pd.DataFrame(lclpred_truth_dict)
 lcnpred_truth_dict = pd.DataFrame(lcnpred_truth_dict)
-lclpred_truth_dict.to_csv('../analysis/glif_models/lcl.csv')
-lcnpred_truth_dict.to_csv('../analysis/glif_models/lcn.csv')
+# lclpred_truth_dict.to_csv('../analysis/glif_models/lcl.csv')
+# lcnpred_truth_dict.to_csv('../analysis/glif_models/lcn.csv')
 
 # %% Latents + morph
 
@@ -494,8 +508,8 @@ lmlpred_truth_dict['has_model'] = has_model.tolist()
 lmnpred_truth_dict['has_model'] = has_model.tolist()
 lmlpred_truth_dict = pd.DataFrame(lmlpred_truth_dict)
 lmnpred_truth_dict = pd.DataFrame(lmnpred_truth_dict)
-lmlpred_truth_dict.to_csv('../analysis/glif_models/lml.csv')
-lmnpred_truth_dict.to_csv('../analysis/glif_models/lmn.csv')
+# lmlpred_truth_dict.to_csv('../analysis/glif_models/lml.csv')
+# lmnpred_truth_dict.to_csv('../analysis/glif_models/lmn.csv')
 
 # %% Cell type + morph
 
@@ -525,8 +539,8 @@ cmlpred_truth_dict['has_model'] = has_model.tolist()
 cmnpred_truth_dict['has_model'] = has_model.tolist()
 cmlpred_truth_dict = pd.DataFrame(cmlpred_truth_dict)
 cmnpred_truth_dict = pd.DataFrame(cmnpred_truth_dict)
-cmlpred_truth_dict.to_csv('../analysis/glif_models/cml.csv')
-cmnpred_truth_dict.to_csv('../analysis/glif_models/cmn.csv')
+# cmlpred_truth_dict.to_csv('../analysis/glif_models/cml.csv')
+# cmnpred_truth_dict.to_csv('../analysis/glif_models/cmn.csv')
 
 # %% Latents + cell types + morph
 
@@ -556,8 +570,8 @@ lcmlpred_truth_dict['has_model'] = has_model.tolist()
 lcmnpred_truth_dict['has_model'] = has_model.tolist()
 lcmlpred_truth_dict = pd.DataFrame(lcmlpred_truth_dict)
 lcmnpred_truth_dict = pd.DataFrame(lcmnpred_truth_dict)
-lcmlpred_truth_dict.to_csv('../analysis/glif_models/lcml.csv')
-lcmnpred_truth_dict.to_csv('../analysis/glif_models/lcmn.csv')
+# lcmlpred_truth_dict.to_csv('../analysis/glif_models/lcml.csv')
+# lcmnpred_truth_dict.to_csv('../analysis/glif_models/lcmn.csv')
 
 # %%
 
@@ -580,9 +594,14 @@ nonlinear_score_stds = [lnscore_std_dict, cnscore_std_dict, mnscore_std_dict, lc
 nonlinear_score_stds = pd.DataFrame(nonlinear_score_stds)
 nonlinear_score_stds.to_csv('../analysis/glif_scores/nonlinear_score_stds.csv')
 
+"""
+
 # %%
 
-
+linear_scores = pd.read_csv('../analysis/glif_scores/linear_scores.csv')
+linear_score_stds = pd.read_csv('../analysis/glif_scores/linear_score_stds.csv')
+nonlinear_scores = pd.read_csv('../analysis/glif_scores/nonlinear_scores.csv')
+nonlinear_score_stds = pd.read_csv('../analysis/glif_scores/nonlinear_score_stds.csv')
 
 # %%
 
@@ -597,12 +616,13 @@ for feature in linear_scores.columns:
     if feature == 'input_features':
         continue
 
-    fig, axs = plt.subplots(1, 2, figsize=(12,6), sharey=True)
+    fig, axs = plt.subplots(1, 2, figsize=(12,5), sharey=True)
     
     axs[0].bar(np.arange(7), linear_scores[feature], yerr=(linear_score_stds[feature] / np.sqrt(5)))
     axs[0].set_xticks(np.arange(7))
     axs[0].set_xticklabels(linear_scores['input_features'], rotation=90)
-    axs[0].set_title('Linear')
+    axs[0].set_ylabel('R^2')
+    axs[0].set_title(f'{feature}')
     
     axs[1].bar(np.arange(7), nonlinear_scores[feature], yerr=(nonlinear_score_stds[feature] / np.sqrt(5)))
     axs[1].set_xticks(np.arange(7))
@@ -613,3 +633,101 @@ for feature in linear_scores.columns:
     plt.savefig(f'../analysis/glif_plots/{feature}.png')
     plt.close()
 
+exit(0)
+
+# %%
+
+mlscore_dict, mlscore_std_dict, mlpred_truth_dict, model_dict = fit_eval_decoder(
+    morph_features[has_model], morph_features,
+    regression_model=Ridge, regression_params={'alpha': np.logspace(-6, 4, 22)},
+    classification_model=LogisticRegression, classification_params={},
+    seed=0, return_models=True
+)
+
+# %%
+
+base_score = mlscore_dict['R_input']
+
+score_drops = []
+for i in range(len(morph_feature_names)):
+    mask = np.arange(len(morph_feature_names)) != i
+    temp_mean, temp_std, _ = fit_eval_decoder(
+        morph_features[has_model][:, mask], morph_features[:, mask],
+        regression_model=Ridge, regression_params={'alpha': np.logspace(-6, 4, 22)},
+        classification_model=LogisticRegression, classification_params={},
+        seed=0
+    )
+    score_drops.append({
+        'feat_name': morph_feature_names[i],
+        'score': temp_mean['R_input'],
+        'std': temp_std['R_input'],
+        'drop': temp_mean['R_input'] - base_score
+    })
+
+# %%
+
+clscore_dict, clscore_std_dict, clpred_truth_dict, clmodel_dict = fit_eval_decoder(
+    cell_features[has_model], cell_features,
+    regression_model=Ridge, regression_params={'alpha': np.logspace(-6, 4, 22)},
+    classification_model=LogisticRegression, classification_params={},
+    seed=0, return_models=True
+)
+
+# %%
+
+mask = [fn != 'transgenic_line' for fn in cell_feature_names]
+mask = np.array(mask)
+
+cldscore_dict, cldscore_std_dict, cldpred_truth_dict = fit_eval_decoder(
+    cell_features[has_model][:, mask], cell_features[:, mask],
+    regression_model=Ridge, regression_params={'alpha': np.logspace(-6, 4, 22)},
+    classification_model=LogisticRegression, classification_params={},
+    seed=0
+)
+
+# %%
+
+inputs = np.concatenate([latent_features, cell_features, morph_features], axis=1)
+all_feature_names = [f'{i}' for i in range(32)] + cell_feature_names + morph_feature_names
+
+lcmlscore_dict, lcmlscore_std_dict, lcmlpred_truth_dict, lcmlmodel_dict = fit_eval_decoder(
+    inputs[has_model], inputs,
+    regression_model=Ridge, regression_params={'alpha': np.logspace(-6, 4, 22)},
+    classification_model=LogisticRegression, classification_params={},
+    seed=0, return_models=True
+)
+
+# %%
+
+for field in ['C', 'R_input', 'init_threshold', 'El_reference', 'spike_cut_length']:
+    best_features = [all_feature_names[int(i)] for i in np.argsort(np.abs(lcmlmodel_dict[field].best_estimator_.coef_))[::-1]]
+    print(f'{field}: {best_features[:8]}')
+
+# %%
+
+fmask = [fn != 'transgenic_line' for fn in all_feature_names]
+fmask = np.array(fmask)
+
+lcmldscore_dict, lcmldscore_std_dict, lcmldpred_truth_dict, lcmldmodel_dict = fit_eval_decoder(
+    inputs[has_model][:, fmask], inputs[:, fmask],
+    regression_model=Ridge, regression_params={'alpha': np.logspace(-6, 4, 22)},
+    classification_model=LogisticRegression, classification_params={},
+    seed=0, return_models=True
+)
+
+# %%
+
+lcmld_dat = [lcmldscore_dict[field] for field in ['C', 'R_input', 'init_threshold', 'El_reference', 'spike_cut_length']]
+lcml_dat = [lcmlscore_dict[field] for field in ['C', 'R_input', 'init_threshold', 'El_reference', 'spike_cut_length']]
+cld_dat = [cldscore_dict[field] for field in ['C', 'R_input', 'init_threshold', 'El_reference', 'spike_cut_length']]
+cl_dat = [clscore_dict[field] for field in ['C', 'R_input', 'init_threshold', 'El_reference', 'spike_cut_length']]
+
+# %%
+
+masked_feature_names = [all_feature_names[i] for i in range(len(all_feature_names)) if fmask[i]]
+
+for field in ['C', 'R_input', 'init_threshold', 'El_reference', 'spike_cut_length']:
+    best_features = [masked_feature_names[int(i)] for i in np.argsort(np.abs(lcmldmodel_dict[field].best_estimator_.coef_))[::-1]]
+    print(f'{field}: {best_features[:8]}')
+
+# %%
